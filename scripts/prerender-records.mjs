@@ -31,25 +31,11 @@ const metaBlock = (m) => '    ' + m.join('\n    ')
 const archive = JSON.parse(readFileSync(join(root, 'src/data/archive.json'), 'utf8'))
 const template = readFileSync(join(dist, 'index.html'), 'utf8')
 
-// Página raiz: tags do site com URL absoluta (corrige também o dist/index.html).
-const rootTitle = 'a verdade. Acusações contra Flávio Bolsonaro'
-const rootDesc =
-  'Consulte as acusações e o contexto do documento Eleições 2026 e a Central de Materiais da campanha: cards, jogos, arte de rua e documentos para virar voto.'
-const rootHtml = stripPageMeta(template).replace(
-  '</head>',
-  `${metaBlock([
-    `<title>${esc(rootTitle)}</title>`,
-    `<meta name="description" content="${esc(rootDesc)}">`,
-    `<meta property="og:type" content="website">`,
-    `<meta property="og:site_name" content="a verdade.">`,
-    `<meta property="og:title" content="${esc(rootTitle)}">`,
-    `<meta property="og:description" content="${esc(rootDesc)}">`,
-    `<meta property="og:url" content="${SITE_URL}/">`,
-    `<meta property="og:image" content="${SITE_URL}/og-default.png">`,
-    `<meta name="twitter:card" content="summary_large_image">`,
-    `<link rel="canonical" href="${SITE_URL}/">`,
-  ])}\n  </head>`,
-)
+// Página raiz: o index.html do template já carrega title/description/og
+// corretos (mantidos em src), então aqui só acrescenta o canonical absoluto.
+const rootHtml = template.includes('rel="canonical"')
+  ? template
+  : template.replace('</head>', `    <link rel="canonical" href="${SITE_URL}/">\n  </head>`)
 writeFileSync(join(dist, 'index.html'), rootHtml)
 
 // Página /materiais: Central de Materiais com OG própria (canal principal: WhatsApp).
