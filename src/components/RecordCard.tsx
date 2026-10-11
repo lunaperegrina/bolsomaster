@@ -1,4 +1,5 @@
 import {
+  categoryMeta,
   sourceName,
   isCorrection,
   episodeBySlug,
@@ -16,9 +17,17 @@ export function RecordCard({
 }) {
   const source = record.links.find((url) => /^https?:\/\//.test(url))
   const episode = showEpisode && record.episode ? episodeBySlug[record.episode] : undefined
+  const badge = categoryMeta[record.category]
 
   return (
     <article className="record" data-record-id={record.id}>
+      <span
+        className="record-badge"
+        style={badge ? { background: badge.color } : undefined}
+        title={record.category}
+      >
+        {badge?.short ?? record.category}
+      </span>
       <div className="record-meta">
         <span className="record-id">REGISTRO {record.number}</span>
         {isCorrection(record.kind) ? (
@@ -28,7 +37,6 @@ export function RecordCard({
         ) : (
           <span className="record-category">{record.kind}</span>
         )}
-        <span className="record-category">{record.category}</span>
         {episode && <span className="record-episode">Caso: {episode.title}</span>}
       </div>
       <h3>

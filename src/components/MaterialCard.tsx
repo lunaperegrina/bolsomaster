@@ -58,17 +58,29 @@ export function MaterialCard({
   item,
   onShare,
   rank,
+  layout = 'stack',
 }: {
   item: MaterialItem
   onShare: (item: MaterialItem) => void
   rank?: number
+  layout?: 'stack' | 'row'
 }) {
   const meta = typeMeta[item.type]
   const internal = item.type === 'interno'
   const category = categoryByKey(item.category)
+  const row = layout === 'row'
+
+  // No card vertical o chip vive sobreposto à capa; no horizontal a capa é
+  // estreita demais para o label, então ele desce pra linha de meta.
+  const categoryChip = (
+    <span className={row ? 'chip' : 'chip mat-cover-chip'}>
+      <i style={{ background: category?.dot }} aria-hidden="true" />
+      {category?.label ?? item.category}
+    </span>
+  )
 
   return (
-    <article className="mat-card card">
+    <article className={`mat-card card${row ? ' mat-card--row' : ''}`}>
       <div className="mat-cover">
         <img
           src={item.image}
@@ -83,48 +95,48 @@ export function MaterialCard({
             {rank}
           </span>
         )}
-        <span className="chip mat-cover-chip">
-          <i style={{ background: category?.dot }} aria-hidden="true" />
-          {category?.label ?? item.category}
-        </span>
+        {!row && categoryChip}
       </div>
-      <div className="mat-meta">
-        <span className="mat-type">
-          {typeIcons[item.type]}
-          {meta.label}
-        </span>
+      <div className="mat-body">
+        <div className="mat-meta">
+          {row && categoryChip}
+          <span className="mat-type">
+            {typeIcons[item.type]}
+            {meta.label}
+          </span>
+        </div>
+        <h3 className="mat-title">
+          {internal ? (
+            <Link to="/">{item.title}</Link>
+          ) : (
+            <a href={item.url} target="_blank" rel="noopener noreferrer">
+              {item.title}
+            </a>
+          )}
+        </h3>
+        <p className="mat-desc">{item.description}</p>
+        {item.note && <p className="mat-note">{item.note}</p>}
+        <div className="mat-actions">
+          {internal ? (
+            <Link className="btn" to="/">
+              Ver acervo <span aria-hidden="true">→</span>
+            </Link>
+          ) : (
+            <a className="btn" href={item.url} target="_blank" rel="noopener noreferrer">
+              Abrir <span aria-hidden="true">↗</span>
+            </a>
+          )}
+          <button
+            className="btn ghost"
+            type="button"
+            onClick={() => onShare(item)}
+            aria-label={`Compartilhar: ${item.title}`}
+          >
+            Compartilhar
+          </button>
+        </div>
+        {!internal && <p className="mat-host">{hostLabel(item.url)}</p>}
       </div>
-      <h3 className="mat-title">
-        {internal ? (
-          <Link to="/">{item.title}</Link>
-        ) : (
-          <a href={item.url} target="_blank" rel="noopener noreferrer">
-            {item.title}
-          </a>
-        )}
-      </h3>
-      <p className="mat-desc">{item.description}</p>
-      {item.note && <p className="mat-note">{item.note}</p>}
-      <div className="mat-actions">
-        {internal ? (
-          <Link className="btn" to="/">
-            Ver acervo <span aria-hidden="true">→</span>
-          </Link>
-        ) : (
-          <a className="btn" href={item.url} target="_blank" rel="noopener noreferrer">
-            Abrir <span aria-hidden="true">↗</span>
-          </a>
-        )}
-        <button
-          className="btn ghost"
-          type="button"
-          onClick={() => onShare(item)}
-          aria-label={`Compartilhar: ${item.title}`}
-        >
-          Compartilhar
-        </button>
-      </div>
-      {!internal && <p className="mat-host">{hostLabel(item.url)}</p>}
     </article>
   )
 }

@@ -56,6 +56,15 @@ export const filterButtons: { value: string; label: string }[] = [
   { value: 'Contexto político', label: 'Contexto político' },
 ]
 
+// Badge do card de registro: rótulo curto + cor sólida por categoria.
+export const categoryMeta: Record<string, { short: string; color: string }> = {
+  'Banco Master e INSS': { short: 'Master e INSS', color: 'var(--rec-master)' },
+  'STF e instituto ITER': { short: 'STF e ITER', color: 'var(--rec-stf)' },
+  'Aliados políticos': { short: 'Aliados', color: 'var(--rec-aliados)' },
+  'Histórico de Flávio': { short: 'Histórico', color: 'var(--rec-historico)' },
+  'Contexto político': { short: 'Contexto', color: 'var(--rec-contexto)' },
+}
+
 const names: Record<string, string> = {
   'www.cnnbrasil.com.br': 'CNN Brasil',
   'noticias.uol.com.br': 'UOL',

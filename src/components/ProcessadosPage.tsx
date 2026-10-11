@@ -99,16 +99,12 @@ export function ProcessadosPage() {
             Fui processado pelo <em>Flávio Bolsonaro</em>?
           </h1>
           <p className="proc-sub">
-            Duas listas, duas situações: {xCount} perfis do X constam como processados na ação
-            movida pelo senador; {igCount} do Instagram apenas foram citados no pedido dele
-            ao TSE, que pede suspensão de contas às plataformas, e não processo contra as
-            pessoas. Digite um @ (ou o de alguém) e veja se está em alguma.
+            {xCount} perfis do X constam como <strong>processados</strong> na ação do senador. Os{' '}
+            {igCount} do Instagram só foram <strong>citados</strong> no pedido dele ao TSE, que quer{' '}
+            <strong>suspender contas, não processar pessoas</strong>.{' '}
+            <strong>Digite um @ e confira.</strong>
           </p>
           <div className="mat-hero-actions">
-            <span className="chip">
-              <i aria-hidden="true" />
-              {processadosCount} perfis · {postsCitados} posts citados
-            </span>
             <button className="btn primary" type="button" onClick={share}>
               Compartilhar a consulta
             </button>

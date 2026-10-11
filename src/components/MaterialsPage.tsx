@@ -185,7 +185,7 @@ export function MaterialsPage() {
             <ol className="mat-start-grid">
               {featuredMaterials.map((item, i) => (
                 <li key={item.id}>
-                  <MaterialCard item={item} onShare={shareItem} rank={i + 1} />
+                  <MaterialCard item={item} onShare={shareItem} rank={i + 1} layout="row" />
                 </li>
               ))}
             </ol>

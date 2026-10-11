@@ -54,6 +54,13 @@
   --cat-documentacao: #33608f;
   --cat-debate: #7a5a9e;
 
+  /* Categorias do acervo: fundo do badge do registro, texto --cream-on-accent (AA). */
+  --rec-master: #c22a17;
+  --rec-stf: #33608f;
+  --rec-aliados: #7a5a9e;
+  --rec-historico: #8a5f16;
+  --rec-contexto: #3f7a4e;
+
   --torn: polygon(
     1% 12%, 8% 4%, 18% 9%, 30% 2%, 42% 8%, 55% 1%, 68% 6%, 80% 2%, 92% 7%,
     99% 15%, 96% 32%, 100% 48%, 95% 66%, 99% 82%, 90% 95%, 76% 99%, 62% 93%,
@@ -77,7 +84,7 @@
 
   --pad: 16px;
   --gap: 12px;
-  --container: 848px;
+  --container: 1200px;
   --header-h: 60px;
 }
 
@@ -1079,6 +1086,27 @@ main {
   flex-wrap: wrap;
   gap: 8px;
   margin-bottom: 8px;
+  /* Deixa espaço para o badge de categoria fixo no canto superior direito. */
+  padding-right: 124px;
+}
+
+.record-badge {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 9px;
+  border: 1px solid var(--ink);
+  border-radius: 6px;
+  background: var(--fg-4);
+  color: var(--cream-on-accent);
+  font: 700 var(--t-micro) / 1 var(--sans);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  box-shadow: 2px 2px 0 rgba(26, 20, 12, 0.2);
 }
 
 .record-id {
@@ -1497,7 +1525,7 @@ dialog::backdrop {
 .mat-hero {
   padding: 40px 0 24px;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 212px;
+  grid-template-columns: minmax(0, 1fr) clamp(212px, 19vw, 300px);
   gap: 32px;
   align-items: center;
 }
@@ -1529,7 +1557,7 @@ dialog::backdrop {
 /* colagem do hero: retrato P&B com retícula, papel rasgado vermelho, fitas e tira de thumbs */
 .mat-collage {
   position: relative;
-  width: 212px;
+  width: 100%;
   justify-self: end;
 }
 
@@ -1655,6 +1683,11 @@ dialog::backdrop {
   padding: 0;
 }
 
+/* cards horizontais de "Por onde começar" pedem coluna mais larga */
+.mat-start-grid {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
 .mat-card {
   display: flex;
   flex-direction: column;
@@ -1668,7 +1701,15 @@ dialog::backdrop {
   box-shadow: 6px 6px 0 rgba(26, 20, 12, 0.16);
 }
 
-/* capa: imagem em sangria no topo do card, rank e categoria sobrepostos */
+.mat-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+/* capa: imagem em sangria; no card vertical (padrão) fica no topo, com rank e categoria sobrepostos */
 .mat-cover {
   position: relative;
   margin: calc(var(--pad) * -1) calc(var(--pad) * -1) 2px;
@@ -1706,6 +1747,24 @@ dialog::backdrop {
   background: rgba(251, 247, 235, 0.95);
   border: 1px solid var(--ink);
   border-radius: 6px;
+}
+
+/* card horizontal: capa em sangria à esquerda, conteúdo em coluna à direita */
+.mat-card--row {
+  flex-direction: row;
+}
+
+.mat-card--row .mat-cover {
+  flex: none;
+  width: 148px;
+  margin: calc(var(--pad) * -1) 0 calc(var(--pad) * -1) calc(var(--pad) * -1);
+  border-bottom: 0;
+  border-right: 1px solid var(--ink);
+}
+
+.mat-card--row .mat-cover img {
+  height: 100%;
+  aspect-ratio: auto;
 }
 
 .mat-meta {
@@ -2057,6 +2116,17 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .mat-card--row .mat-cover {
+    width: 104px;
+  }
+
+  .mat-card--row .mat-rank {
+    top: 8px;
+    left: 8px;
+    padding: 2px 8px 3px;
+    font-size: 19px;
+  }
+
   .footer-inner {
     flex-direction: column;
     align-items: flex-start;
@@ -2174,6 +2244,11 @@ footer {
   max-width: 56ch;
   font: 400 var(--t-read) / 1.6 var(--sans);
   color: var(--fg-3);
+}
+
+.proc-sub strong {
+  font-weight: 600;
+  color: var(--fg-2);
 }
 
 .proc-toolbar .search-panel {
