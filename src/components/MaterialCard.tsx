@@ -8,7 +8,7 @@ import {
   type MaterialItem,
 } from '../lib/materials'
 
-// Ícones por tipo de material — traço fino, 16px, na cor do texto secundário.
+// Ícones por tipo de material: traço fino, 16px, na cor do texto secundário.
 const typeIcons: Record<MaterialType, ReactNode> = {
   site: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
@@ -69,22 +69,30 @@ export function MaterialCard({
 
   return (
     <article className="mat-card card">
-      <div className="mat-top">
-        <span className="mat-icon" aria-hidden="true">
-          {typeIcons[item.type]}
-        </span>
+      <div className="mat-cover">
+        <img
+          src={item.image}
+          alt={`Colagem em estilo zine sobre: ${item.title}`}
+          width="640"
+          height="427"
+          loading="lazy"
+          decoding="async"
+        />
         {rank !== undefined && (
           <span className="mat-rank num" aria-label={`Passo ${rank}`}>
             {rank}
           </span>
         )}
-      </div>
-      <div className="mat-meta">
-        <span className="chip">
+        <span className="chip mat-cover-chip">
           <i style={{ background: category?.dot }} aria-hidden="true" />
           {category?.label ?? item.category}
         </span>
-        <span className="mat-type">{meta.label}</span>
+      </div>
+      <div className="mat-meta">
+        <span className="mat-type">
+          {typeIcons[item.type]}
+          {meta.label}
+        </span>
       </div>
       <h3 className="mat-title">
         {internal ? (

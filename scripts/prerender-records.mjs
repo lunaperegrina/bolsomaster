@@ -32,7 +32,7 @@ const archive = JSON.parse(readFileSync(join(root, 'src/data/archive.json'), 'ut
 const template = readFileSync(join(dist, 'index.html'), 'utf8')
 
 // Página raiz: tags do site com URL absoluta (corrige também o dist/index.html).
-const rootTitle = 'a verdade. — Acusações contra Flávio Bolsonaro'
+const rootTitle = 'a verdade. Acusações contra Flávio Bolsonaro'
 const rootDesc =
   'Consulte as acusações e o contexto do documento Eleições 2026 e a Central de Materiais da campanha: cards, jogos, arte de rua e documentos para virar voto.'
 const rootHtml = stripPageMeta(template).replace(
@@ -53,7 +53,7 @@ const rootHtml = stripPageMeta(template).replace(
 writeFileSync(join(dist, 'index.html'), rootHtml)
 
 // Página /materiais: Central de Materiais com OG própria (canal principal: WhatsApp).
-const matTitle = 'Central de Materiais — a verdade.'
+const matTitle = 'Central de Materiais · a verdade.'
 const matDesc =
   'Cards, jogos, arte de rua e documentos pra compartilhar, jogar, imprimir e debater. Tudo num lugar só.'
 const matUrl = `${SITE_URL}/materiais`
@@ -75,9 +75,32 @@ const matHtml = stripPageMeta(template).replace(
 mkdirSync(join(dist, 'materiais'), { recursive: true })
 writeFileSync(join(dist, 'materiais', 'index.html'), matHtml)
 
+// Página /processados: consulta "Fui processado?" com OG própria (canal: WhatsApp).
+const procTitle = 'Fui processado pelo Flávio Bolsonaro? · a verdade.'
+const procDesc =
+  '639 perfis do X processados por Flávio Bolsonaro e 638 do Instagram citados no pedido dele ao TSE. Digite um @ e veja se você está em alguma das listas.'
+const procUrl = `${SITE_URL}/processados`
+const procHtml = stripPageMeta(template).replace(
+  '</head>',
+  `${metaBlock([
+    `<title>${esc(procTitle)}</title>`,
+    `<meta name="description" content="${esc(procDesc)}">`,
+    `<meta property="og:type" content="website">`,
+    `<meta property="og:site_name" content="a verdade.">`,
+    `<meta property="og:title" content="${esc(procTitle)}">`,
+    `<meta property="og:description" content="${esc(procDesc)}">`,
+    `<meta property="og:url" content="${procUrl}">`,
+    `<meta property="og:image" content="${SITE_URL}/og-default.png">`,
+    `<meta name="twitter:card" content="summary_large_image">`,
+    `<link rel="canonical" href="${procUrl}">`,
+  ])}\n  </head>`,
+)
+mkdirSync(join(dist, 'processados'), { recursive: true })
+writeFileSync(join(dist, 'processados', 'index.html'), procHtml)
+
 // Uma página por registro.
 for (const record of archive.cases) {
-  const title = `${record.title} — a verdade.`
+  const title = `${record.title} · a verdade.`
   const description = String(record.summary ?? record.text ?? '')
     .replace(/\s+/g, ' ')
     .trim()

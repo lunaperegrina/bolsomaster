@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useSearch, Link } from '@tanstack/react-router'
-import { cases, episodes, filterButtons, normalize, sourceCount, editionDate, type ArchiveCase, type Episode } from '../lib/archive'
+import { cases, episodes, filterButtons, normalize, sourceCount, type ArchiveCase, type Episode } from '../lib/archive'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { About } from './About'
@@ -10,6 +10,19 @@ import { RecordDialog } from './RecordDialog'
 import { SearchBox, Toast, useToast } from './ui'
 
 const PAGE_SIZE = 12
+
+// Palavras-chave da tira vertical da colagem da hero.
+const COLLAGE_WORDS = [
+  'INSS',
+  'VIAGENS',
+  'MANSÕES',
+  'RACHADINHAS',
+  'STF',
+  'JATINHO',
+  'EUA',
+  'FILME',
+  'DOADORES',
+]
 
 interface ArchiveSearchParams {
   q?: string
@@ -23,8 +36,7 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
 
   const [limit, setLimit] = useState(PAGE_SIZE)
   const toast = useToast()
-  const resultsRef = useRef<HTMLDivElement>(null)
-  const limitFocused = useRef(true)
+  const sentinelRef = useRef<HTMLDivElement>(null)
 
   const filtered = useMemo(() => {
     const words = normalize(q.trim())
@@ -36,6 +48,7 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
   }, [q, cat])
 
   const shown = filtered.slice(0, limit)
+  const hasMore = filtered.length > limit
 
   // Sem busca/filtro, os registros aparecem agrupados por episódio (caso),
   // na ordem editorial de episodes; com busca/filtro, lista plana com chip
@@ -57,12 +70,8 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
   const setQ = (value: string) =>
     navigate({ to: '/', search: (prev) => ({ ...prev, q: value || undefined }), replace: true })
 
-  const setCategory = (value: string) => {
+  const setCategory = (value: string) =>
     navigate({ to: '/', search: (prev) => ({ ...prev, cat: value || undefined }) })
-    document.getElementById('acervo')?.scrollIntoView({
-      behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
-    })
-  }
 
   const clearFilters = () => {
     navigate({ to: '/', search: (prev) => ({ ...prev, q: undefined, cat: undefined }) })
@@ -79,28 +88,28 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
     else navigate({ to: '/', search: (prev) => ({ ...prev, registro: undefined }), replace: true })
   }
 
-  const loadMore = () => setLimit((n) => n + PAGE_SIZE)
-
   // Reinicia a paginação quando a busca ou o filtro muda.
   useEffect(() => {
     setLimit(PAGE_SIZE)
   }, [q, cat])
 
-  // Mantém o foco acessível no primeiro registro novo após "Mostrar mais".
+  // Scroll infinito: quando o sentinel abaixo da lista se aproxima da viewport,
+  // carrega o próximo bloco. O observer é recriado a cada load para reavaliar a
+  // interseção: em viewports altas o sentinel pode continuar visível depois
+  // que a lista cresce, sem mudar de estado para disparar de novo.
   useEffect(() => {
-    if (limitFocused.current) {
-      limitFocused.current = false
-      return
-    }
-    const before = Math.min(limit - PAGE_SIZE, filtered.length)
-    const target = shown[before]
-    if (!target) return
-    const button = resultsRef.current?.querySelector(
-      `[data-record-id="${target.id}"] h3 button`,
-    ) as HTMLButtonElement | null
-    button?.focus({ preventScroll: true })
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [limit])
+    if (!hasMore) return
+    const sentinel = sentinelRef.current
+    if (!sentinel) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting)) setLimit((n) => n + PAGE_SIZE)
+      },
+      { rootMargin: '600px 0px' },
+    )
+    observer.observe(sentinel)
+    return () => observer.disconnect()
+  }, [limit, hasMore])
 
   // Compatibilidade com links antigos no formato #registro-XXX.
   useEffect(() => {
@@ -131,37 +140,37 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
         Ir para os registros
       </a>
       <Header />
-      <main>
+      <main className="main--full">
         <section id="acervo" className="archive" aria-labelledby="archive-title">
           <div className="hero">
-            <div className="hero-main">
-              <p className="hero-kick">
-                <span>Eleições 2026</span>
-                <span className="sep" aria-hidden="true">·</span>
-                <span>Dossiê V2-10/10</span>
-                <span className="sep" aria-hidden="true">·</span>
-                <span>Acervo</span>
-              </p>
+            <div className="hero-copy">
               <h1 className="manchete" id="archive-title">
-                Acusações contra Flávio Bolsonaro.
+                Acusações contra Flávio Bolsonaro<span className="dot" aria-hidden="true">.</span>
               </h1>
               <p className="hero-status">
-                <b className="num">{cases.length}</b> registros ·{' '}
-                <b className="num">{sourceCount}</b> fontes citadas · consulta editorial de{' '}
-                {editionDate}
+                <b className="num">Mais de R$ 660 milhões</b> em valores citados nos casos que
+                envolvem o senador e seu círculo (filme de <b className="num">R$ 134 milhões</b>,
+                honorários de <b className="num">R$ 427 milhões</b>, mansões, rachadinha e emendas),
+                além dos desvios bilionários do INSS.
               </p>
-            </div>
-            <figure className="hero-card">
-              <img
-                src="/flavio-320.jpg"
-                srcSet="/flavio-320.jpg 320w, /flavio-640.jpg 640w"
-                sizes="(max-width: 739px) 96px, 216px"
-                width="320"
-                height="445"
-                alt="Retrato de Flávio Bolsonaro em sessão do Senado Federal"
-                decoding="async"
-              />
-              <figcaption>
+              <div className="hero-facts">
+                <div className="fact">
+                  <span className="fig num">
+                    <small>R$</small>
+                    660 <em>mi+</em>
+                  </span>
+                  <span className="lbl">em valores citados</span>
+                </div>
+                <div className="fact">
+                  <span className="fig num">{cases.length}</span>
+                  <span className="lbl">registros do dossiê</span>
+                </div>
+                <div className="fact">
+                  <span className="fig num">{sourceCount}</span>
+                  <span className="lbl">fontes citadas</span>
+                </div>
+              </div>
+              <p className="hero-credit">
                 Foto: Carlos Moura/Agência Senado ·{' '}
                 <a
                   href="https://creativecommons.org/licenses/by-sa/4.0"
@@ -170,20 +179,57 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
                 >
                   CC BY-SA 4.0
                 </a>
-              </figcaption>
-              <div className="hero-stats">
-                <div className="hero-stat">
-                  <span className="fig num">{cases.length}</span>
-                  <span>registros do dossiê</span>
-                </div>
-                <div className="hero-stat">
-                  <span className="fig num">{sourceCount}</span>
-                  <span>fontes citadas</span>
-                </div>
+              </p>
+            </div>
+            <div className="collage">
+              <div className="collage-under" aria-hidden="true" />
+              <div className="collage-red" aria-hidden="true" />
+              <figure className="collage-portrait dots">
+                <img
+                  src="/flavio-poster.jpg"
+                  width="560"
+                  height="700"
+                  alt="Retrato de Flávio Bolsonaro em sessão do Senado Federal"
+                  decoding="async"
+                />
+              </figure>
+              <img
+                className="collage-scrap scrap-doc"
+                src="/img/collage/scrap-documentos.jpg"
+                alt=""
+                aria-hidden="true"
+                decoding="async"
+              />
+              <img
+                className="collage-scrap scrap-stamps"
+                src="/img/collage/scrap-carimbos.jpg"
+                alt=""
+                aria-hidden="true"
+                decoding="async"
+              />
+              <img
+                className="collage-scrap scrap-poster"
+                src="/img/collage/scrap-poster.jpg"
+                alt=""
+                aria-hidden="true"
+                decoding="async"
+              />
+              <div className="collage-sticker" aria-hidden="true">
+                <span>Banco</span>
+                <span>Master</span>
               </div>
-            </figure>
+              <ul className="collage-words" aria-label="Temas do dossiê">
+                {COLLAGE_WORDS.map((w) => (
+                  <li key={w}>{w}</li>
+                ))}
+              </ul>
+              <div className="collage-halftone" aria-hidden="true" />
+              <span className="collage-tape tape-a" aria-hidden="true" />
+              <span className="collage-tape tape-b" aria-hidden="true" />
+            </div>
           </div>
-          <p className="materials-promo">
+          <div className="wrap">
+            <p className="materials-promo">
             <Link to="/materiais">
               Quer virar voto? Central de Materiais: cards, jogos e material de rua{' '}
               <span className="arrow" aria-hidden="true">→</span>
@@ -219,7 +265,7 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
               Limpar filtros
             </button>
           </div>
-          <div id="results" className="results" ref={resultsRef}>
+          <div id="results" className="results">
             {shown.length ? (
               episodeSections ? (
                 episodeSections.map((section) => (
@@ -255,14 +301,14 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
               </div>
             )}
           </div>
-          <div className="pagination">
-            <button className="btn ghost" id="load-more" hidden={filtered.length <= limit} onClick={loadMore}>
-              Mostrar mais <span aria-hidden="true">↓</span>
-            </button>
-            <p id="page-info">
-              {filtered.length ? `${shown.length} de ${filtered.length} registros` : ''}
-            </p>
-          </div>
+          <div ref={sentinelRef} aria-hidden="true" />
+          {hasMore && filtered.length > 0 && (
+            <div className="pagination">
+              <p id="page-info">
+                Mostrando {shown.length} de {filtered.length} registros
+              </p>
+            </div>
+          )}
           <noscript>
             Ative o JavaScript para usar a busca ou{' '}
             <a href="/documento-original.pdf" download="eleicoes-2026-original.pdf">
@@ -270,8 +316,11 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
             </a>
             .
           </noscript>
+          </div>
         </section>
-        <About />
+        <div className="wrap">
+          <About />
+        </div>
       </main>
       <Footer />
       <RecordDialog record={activeRecord} onClose={closeRecord} showToast={toast.show} />

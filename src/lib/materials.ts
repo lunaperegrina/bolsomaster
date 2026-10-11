@@ -18,6 +18,7 @@ export interface MaterialEntry {
 
 export interface MaterialItem extends MaterialEntry {
   searchText: string
+  image: string
 }
 
 export interface MaterialCategory {
@@ -47,6 +48,7 @@ export const typeMeta: Record<MaterialType, { label: string }> = {
 export const materials: MaterialItem[] = (raw.items as MaterialEntry[]).map((m) => ({
   ...m,
   searchText: normalize([m.title, m.description, m.category, m.type, m.note ?? ''].join(' ')),
+  image: `/img/materiais/${m.id}.webp`,
 }))
 
 export const materialsDate = raw.date
@@ -74,7 +76,7 @@ export function hostLabel(url: string): string {
 export function sharePayload(item: MaterialItem): { title: string; text: string; url: string } {
   return {
     title: item.title,
-    text: `${item.title} — ${item.description}`,
+    text: `${item.title}\n${item.description}`,
     url: new URL(item.url, window.location.origin).toString(),
   }
 }

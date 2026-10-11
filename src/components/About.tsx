@@ -8,7 +8,7 @@ export function About() {
       </summary>
       <div className="about-content">
         <p>
-          São <span id="total-count">{cases.length}</span> registros do PDF “Eleições 2026 —
+          São <span id="total-count">{cases.length}</span> registros do PDF “Eleições 2026:
           Corrupção”, versão V2-10/10, com 14 páginas. A contagem inclui acusações, relatos e
           contexto; não representa um total de crimes ou processos.
         </p>

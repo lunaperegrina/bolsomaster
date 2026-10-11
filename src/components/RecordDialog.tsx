@@ -14,7 +14,7 @@ function EpisodeBrief({ slug }: { slug: string }) {
   const records = cases.filter((c) => c.episode === slug)
   const pages = [...new Set(records.flatMap((r) => r.pages))].sort((a, b) => a - b)
   const pagesLabel = pages.length
-    ? ` — ${pages.length > 1 ? 'páginas' : 'página'} ${pages.join(', ')} do documento original`
+    ? ` (${pages.length > 1 ? 'páginas' : 'página'} ${pages.join(', ')} do documento original)`
     : ''
   return (
     <div className="episode-brief">
@@ -85,7 +85,7 @@ export function RecordDialog({
     : ''
 
   const whatsappUrl = record
-    ? `https://wa.me/?text=${encodeURIComponent(`${record.title} — ${linkUrl}`)}`
+    ? `https://wa.me/?text=${encodeURIComponent(`${record.title}\n${linkUrl}`)}`
     : ''
 
   const shareNative = async () => {

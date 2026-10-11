@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gera public/og-default.png (1200x630) — preview de compartilhamento do site.
+"""Gera public/og-default.png (1200x630): preview de compartilhamento do site.
 
 Rodar uma vez (ou quando a marca mudar): python3 scripts/make-og.py
 Não faz parte do build; o PNG é commitado no repositório.

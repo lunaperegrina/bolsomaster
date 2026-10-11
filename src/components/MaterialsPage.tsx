@@ -17,8 +17,8 @@ import {
 } from '../lib/materials'
 import { normalize } from '../lib/archive'
 
-const PAGE_TITLE = 'Central de Materiais — a verdade.'
-const SITE_TITLE = 'a verdade. — Eleições 2026'
+const PAGE_TITLE = 'Central de Materiais · a verdade.'
+const SITE_TITLE = 'a verdade. Eleições 2026'
 
 export function MaterialsPage() {
   const navigate = useNavigate({ from: '/materiais' })
@@ -81,7 +81,7 @@ export function MaterialsPage() {
   const shareCentral = () =>
     share({
       title: PAGE_TITLE,
-      text: 'Cards, jogos, arte de rua e documentos pra virar voto — tudo num lugar só:',
+      text: 'Cards, jogos, arte de rua e documentos pra virar voto, tudo num lugar só:',
       url: `${window.location.origin}/materiais`,
     })
 
@@ -103,26 +103,42 @@ export function MaterialsPage() {
       <Header />
       <main className="materials">
         <section id="materiais" className="mat-hero" aria-labelledby="mat-title">
-          <p className="hero-kick">
-            <span>Central de Materiais</span>
-            <span className="sep" aria-hidden="true">·</span>
-            <span>Eleições 2026</span>
-          </p>
-          <h1 className="manchete" id="mat-title">
-            Tudo pra <em>virar voto</em>.
-          </h1>
-          <p className="mat-sub">
-            Cards, jogos, arte de rua e documentos pra compartilhar, jogar, imprimir e debater —
-            num lugar só.
-          </p>
-          <div className="mat-hero-actions">
-            <span className="chip">
-              <i aria-hidden="true" />
-              {materials.length} materiais
-            </span>
-            <button className="btn primary" type="button" onClick={shareCentral}>
-              Compartilhar esta central
-            </button>
+          <div className="mat-hero-copy">
+            <h1 className="manchete" id="mat-title">
+              Tudo pra <em>virar voto</em>.
+            </h1>
+            <p className="mat-sub">
+              Cards, jogos, arte de rua e documentos pra compartilhar, jogar, imprimir e debater.
+              Num lugar só.
+            </p>
+            <div className="mat-hero-actions">
+              <span className="chip">
+                <i aria-hidden="true" />
+                {materials.length} materiais
+              </span>
+              <button className="btn primary" type="button" onClick={shareCentral}>
+                Compartilhar esta central
+              </button>
+            </div>
+          </div>
+          <div className="mat-collage" aria-hidden="true">
+            <span className="mat-torn" />
+            <div className="mat-frame dots">
+              <img
+                src="/flavio-640.jpg"
+                alt=""
+                width="640"
+                height="445"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <span className="mat-tape tape-a" />
+            <span className="mat-tape tape-b" />
+            <div className="mat-strip">
+              <img src="/img/materiais/superflavio.webp" alt="" loading="lazy" decoding="async" />
+              <img src="/img/materiais/pontos-de-coleta.webp" alt="" loading="lazy" decoding="async" />
+            </div>
           </div>
         </section>
 
