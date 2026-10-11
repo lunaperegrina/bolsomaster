@@ -1,12 +1,13 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useSearch, Link } from '@tanstack/react-router'
-import { cases, episodes, filterButtons, normalize, type ArchiveCase, type Episode } from '../lib/archive'
+import { cases, episodes, filterButtons, normalize, sourceCount, editionDate, type ArchiveCase, type Episode } from '../lib/archive'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { About } from './About'
 import { Highlights } from './Highlights'
 import { RecordCard } from './RecordCard'
 import { RecordDialog } from './RecordDialog'
+import { SearchBox, Toast, useToast } from './ui'
 
 const PAGE_SIZE = 12
 
@@ -21,8 +22,7 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
   const { q = '', cat = '', registro = '' } = useSearch({ strict: false }) as ArchiveSearchParams
 
   const [limit, setLimit] = useState(PAGE_SIZE)
-  const [toastMessage, setToastMessage] = useState('')
-  const toastTimer = useRef<number>(undefined)
+  const toast = useToast()
   const resultsRef = useRef<HTMLDivElement>(null)
   const limitFocused = useRef(true)
 
@@ -81,12 +81,6 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
 
   const loadMore = () => setLimit((n) => n + PAGE_SIZE)
 
-  const showToast = (message: string) => {
-    setToastMessage(message)
-    window.clearTimeout(toastTimer.current)
-    toastTimer.current = window.setTimeout(() => setToastMessage(''), 4000)
-  }
-
   // Reinicia a paginação quando a busca ou o filtro muda.
   useEffect(() => {
     setLimit(PAGE_SIZE)
@@ -107,21 +101,6 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
     button?.focus({ preventScroll: true })
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [limit])
-
-  // Atalho "/" para focar a busca.
-  useEffect(() => {
-    const onKeydown = (e: KeyboardEvent) => {
-      const tag = (document.activeElement as HTMLElement | null)?.tagName ?? ''
-      const dialogOpen = (document.getElementById('record-dialog') as HTMLDialogElement | null)?.open
-      if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(tag) && !dialogOpen) {
-        e.preventDefault()
-        document.getElementById('search')?.focus()
-        document.getElementById('acervo')?.scrollIntoView()
-      }
-    }
-    document.addEventListener('keydown', onKeydown)
-    return () => document.removeEventListener('keydown', onKeydown)
-  }, [])
 
   // Compatibilidade com links antigos no formato #registro-XXX.
   useEffect(() => {
@@ -155,11 +134,28 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
       <main>
         <section id="acervo" className="archive" aria-labelledby="archive-title">
           <div className="hero">
-            <figure className="hero-photo">
+            <div className="hero-main">
+              <p className="hero-kick">
+                <span>Eleições 2026</span>
+                <span className="sep" aria-hidden="true">·</span>
+                <span>Dossiê V2-10/10</span>
+                <span className="sep" aria-hidden="true">·</span>
+                <span>Acervo</span>
+              </p>
+              <h1 className="manchete" id="archive-title">
+                Acusações contra Flávio Bolsonaro.
+              </h1>
+              <p className="hero-status">
+                <b className="num">{cases.length}</b> registros ·{' '}
+                <b className="num">{sourceCount}</b> fontes citadas · consulta editorial de{' '}
+                {editionDate}
+              </p>
+            </div>
+            <figure className="hero-card">
               <img
                 src="/flavio-320.jpg"
                 srcSet="/flavio-320.jpg 320w, /flavio-640.jpg 640w"
-                sizes="(max-width: 600px) 88px, 132px"
+                sizes="(max-width: 739px) 96px, 216px"
                 width="320"
                 height="445"
                 alt="Retrato de Flávio Bolsonaro em sessão do Senado Federal"
@@ -175,44 +171,33 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
                   CC BY-SA 4.0
                 </a>
               </figcaption>
+              <div className="hero-stats">
+                <div className="hero-stat">
+                  <span className="fig num">{cases.length}</span>
+                  <span>registros do dossiê</span>
+                </div>
+                <div className="hero-stat">
+                  <span className="fig num">{sourceCount}</span>
+                  <span>fontes citadas</span>
+                </div>
+              </div>
             </figure>
-            <div className="intro">
-              <p className="eyebrow">ELEIÇÕES 2026</p>
-              <h1 id="archive-title">Acusações contra Flávio Bolsonaro.</h1>
-            </div>
           </div>
           <p className="materials-promo">
             <Link to="/materiais">
-              <span aria-hidden="true">▸</span> Quer virar voto? Central de Materiais: cards, jogos
-              e material de rua <span aria-hidden="true">→</span>
+              Quer virar voto? Central de Materiais: cards, jogos e material de rua{' '}
+              <span className="arrow" aria-hidden="true">→</span>
             </Link>
           </p>
           <Highlights onOpen={openRecord} />
           <div className="search-panel">
-            <label className="search-box">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                aria-hidden="true"
-              >
-                <circle cx="10.5" cy="10.5" r="6.5" />
-                <path d="m16 16 5 5" />
-              </svg>
-              <span className="sr-only">Buscar nome ou assunto</span>
-              <input
-                id="search"
-                type="search"
-                placeholder="Buscar nome ou assunto"
-                autoComplete="off"
-                value={q}
-                onChange={(e) => setQ(e.target.value)}
-              />
-              <kbd aria-hidden="true">/</kbd>
-            </label>
+            <SearchBox
+              id="search"
+              value={q}
+              onChange={setQ}
+              placeholder="Buscar nome ou assunto"
+              srLabel="Buscar nome ou assunto"
+            />
           </div>
           <div className="filters" role="group" aria-label="Filtrar por assunto">
             {filterButtons.map((f) => (
@@ -247,8 +232,12 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
                       <h3 id={`episode-${section.episode?.slug ?? 'outros'}`}>
                         {section.episode?.title ?? 'Outros registros'}
                       </h3>
-                      {section.episode && <p className="episode-blurb">{section.episode.blurb}</p>}
+                      <span className="episode-count">
+                        {section.records.length}{' '}
+                        {section.records.length === 1 ? 'registro' : 'registros'}
+                      </span>
                     </div>
+                    {section.episode && <p className="episode-blurb">{section.episode.blurb}</p>}
                     {section.records.map((c) => (
                       <RecordCard key={c.id} record={c} onOpen={openRecord} />
                     ))}
@@ -267,7 +256,7 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
             )}
           </div>
           <div className="pagination">
-            <button className="secondary" id="load-more" hidden={filtered.length <= limit} onClick={loadMore}>
+            <button className="btn ghost" id="load-more" hidden={filtered.length <= limit} onClick={loadMore}>
               Mostrar mais <span aria-hidden="true">↓</span>
             </button>
             <p id="page-info">
@@ -285,10 +274,8 @@ export function ArchivePage({ recordIdFromPath }: { recordIdFromPath?: string })
         <About />
       </main>
       <Footer />
-      <RecordDialog record={activeRecord} onClose={closeRecord} showToast={showToast} />
-      <div id="toast" role="status" aria-live="polite" className={toastMessage ? 'show' : undefined}>
-        {toastMessage}
-      </div>
+      <RecordDialog record={activeRecord} onClose={closeRecord} showToast={toast.show} />
+      <Toast message={toast.message} />
     </>
   )
 }

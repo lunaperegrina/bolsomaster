@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo } from 'react'
 import { useNavigate, useSearch } from '@tanstack/react-router'
 import { Header } from './Header'
 import { Footer } from './Footer'
 import { MaterialCard } from './MaterialCard'
+import { SearchBox, Toast, useToast } from './ui'
 import {
   categories,
   countByCategory,
@@ -22,9 +23,7 @@ const SITE_TITLE = 'a verdade. — Eleições 2026'
 export function MaterialsPage() {
   const navigate = useNavigate({ from: '/materiais' })
   const { q = '', cat = '' } = useSearch({ from: '/materiais' })
-
-  const [toastMessage, setToastMessage] = useState('')
-  const toastTimer = useRef<number>(undefined)
+  const toast = useToast()
 
   const filtered = useMemo(() => {
     const words = normalize(q.trim())
@@ -54,18 +53,12 @@ export function MaterialsPage() {
     document.getElementById('search')?.focus()
   }
 
-  const showToast = (message: string) => {
-    setToastMessage(message)
-    window.clearTimeout(toastTimer.current)
-    toastTimer.current = window.setTimeout(() => setToastMessage(''), 4000)
-  }
-
   const copyUrl = async (url: string) => {
     try {
       await navigator.clipboard.writeText(url)
-      showToast('Link copiado.')
+      toast.show('Link copiado.')
     } catch {
-      showToast('Não deu para copiar. Abra o material e copie o link do navegador.')
+      toast.show('Não deu para copiar. Abra o material e copie o link do navegador.')
     }
   }
 
@@ -100,19 +93,6 @@ export function MaterialsPage() {
     }
   }, [])
 
-  // Atalho "/" para focar a busca.
-  useEffect(() => {
-    const onKeydown = (e: KeyboardEvent) => {
-      const tag = (document.activeElement as HTMLElement | null)?.tagName ?? ''
-      if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(tag)) {
-        e.preventDefault()
-        document.getElementById('search')?.focus()
-      }
-    }
-    document.addEventListener('keydown', onKeydown)
-    return () => document.removeEventListener('keydown', onKeydown)
-  }, [])
-
   const browsing = !q && !cat
 
   return (
@@ -123,8 +103,12 @@ export function MaterialsPage() {
       <Header />
       <main className="materials">
         <section id="materiais" className="mat-hero" aria-labelledby="mat-title">
-          <p className="eyebrow mat-eyebrow">Central de Materiais · Eleições 2026</p>
-          <h1 id="mat-title">
+          <p className="hero-kick">
+            <span>Central de Materiais</span>
+            <span className="sep" aria-hidden="true">·</span>
+            <span>Eleições 2026</span>
+          </p>
+          <h1 className="manchete" id="mat-title">
             Tudo pra <em>virar voto</em>.
           </h1>
           <p className="mat-sub">
@@ -132,43 +116,29 @@ export function MaterialsPage() {
             num lugar só.
           </p>
           <div className="mat-hero-actions">
-            <span className="mat-count-badge">{materials.length} materiais</span>
-            <button className="mat-share-central" type="button" onClick={shareCentral}>
-              Compartilhar esta central <span aria-hidden="true">📤</span>
+            <span className="chip">
+              <i aria-hidden="true" />
+              {materials.length} materiais
+            </span>
+            <button className="btn primary" type="button" onClick={shareCentral}>
+              Compartilhar esta central
             </button>
           </div>
         </section>
 
         <div className="mat-toolbar">
           <div className="search-panel">
-            <label className="search-box">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                aria-hidden="true"
-              >
-                <circle cx="10.5" cy="10.5" r="6.5" />
-                <path d="m16 16 5 5" />
-              </svg>
-              <span className="sr-only">Buscar material por nome ou categoria</span>
-              <input
-                id="search"
-                type="search"
-                placeholder="Buscar material (ex.: jogo, status, lambe)"
-                autoComplete="off"
-                value={q}
-                onChange={(e) => setQ(e.target.value)}
-              />
-              <kbd aria-hidden="true">/</kbd>
-            </label>
+            <SearchBox
+              id="search"
+              value={q}
+              onChange={setQ}
+              placeholder="Buscar material (ex.: jogo, status, lambe)"
+              srLabel="Buscar material por nome ou categoria"
+            />
           </div>
           <div className="filters mat-filters" role="group" aria-label="Filtrar por categoria">
             <button type="button" aria-pressed={!cat} onClick={() => setCategory('')}>
-              Todos ({materials.length})
+              Todos <span className="count">({materials.length})</span>
             </button>
             {categories.map((c) => (
               <button
@@ -177,7 +147,8 @@ export function MaterialsPage() {
                 aria-pressed={c.key === cat}
                 onClick={() => setCategory(c.key === cat ? '' : c.key)}
               >
-                <span aria-hidden="true">{c.emoji}</span> {c.label} ({countByCategory(c.key)})
+                <i style={{ background: c.key === cat ? c.dot : undefined }} aria-hidden="true" />
+                {c.label} <span className="count">({countByCategory(c.key)})</span>
               </button>
             ))}
           </div>
@@ -209,8 +180,8 @@ export function MaterialsPage() {
           sections.map((s) => (
             <section key={s.key} className="mat-section" aria-labelledby={`sec-${s.key}`}>
               <h2 id={`sec-${s.key}`}>
-                <span aria-hidden="true">{s.emoji}</span> {s.label}{' '}
-                <span className="mat-sec-count">({s.items.length})</span>
+                <span className="dot" style={{ background: s.dot }} aria-hidden="true" />
+                {s.label} <span className="mat-sec-count">({s.items.length})</span>
               </h2>
               <div className="mat-grid">
                 {s.items.map((item) => (
@@ -267,9 +238,7 @@ export function MaterialsPage() {
         </details>
       </main>
       <Footer />
-      <div id="toast" role="status" aria-live="polite" className={toastMessage ? 'show' : undefined}>
-        {toastMessage}
-      </div>
+      <Toast message={toast.message} />
     </>
   )
 }

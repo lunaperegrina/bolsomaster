@@ -57,7 +57,7 @@ function SourceList({ links, date }: { links: string[]; date?: string }) {
                   {date ? ` · reportagem de ${date}` : ''}
                 </small>
               </span>
-              <span aria-hidden="true">↗</span>
+              <span className="out" aria-hidden="true">↗</span>
             </a>
           </li>
         )
@@ -149,15 +149,22 @@ export function RecordDialog({
     >
       <div className="dialog-bar">
         <span>Detalhes do registro</span>
-        <button aria-label="Fechar registro" onClick={() => dialogRef.current?.close()}>
-          ✕
+        <button className="icon-btn" aria-label="Fechar registro" onClick={() => dialogRef.current?.close()}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" />
+          </svg>
         </button>
       </div>
-      <div id="dialog-body">
+      <div id="dialog-body" className="dialog-body">
         {record && (
           <>
             <div className="dialog-category">
-              {record.category} · REGISTRO {record.number}
+              <span className="chip">
+                <i aria-hidden="true" />
+                REGISTRO {record.number}
+              </span>
+              <span>{record.category}</span>
+              <span>· {record.kind}</span>
             </div>
             <h2 id="dialog-title">{record.title}</h2>
             {record.episode && <EpisodeBrief slug={record.episode} />}
@@ -193,43 +200,29 @@ export function RecordDialog({
               </p>
             </details>
             <div className="dialog-actions">
-              <a
-                className="secondary share-whatsapp"
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <a className="btn primary" href={whatsappUrl} target="_blank" rel="noopener noreferrer">
                 Compartilhar no WhatsApp
               </a>
               {typeof navigator !== 'undefined' && 'share' in navigator && (
-                <button className="secondary" onClick={shareNative}>
+                <button className="btn" onClick={shareNative}>
                   Compartilhar…
                 </button>
               )}
-              <a
-                className="secondary"
-                href="/documento-original.pdf"
-                download="eleicoes-2026-original.pdf"
-              >
+              <a className="btn" href="/documento-original.pdf" download="eleicoes-2026-original.pdf">
                 Baixar PDF original ↓
               </a>
               {manualCopy ? (
                 <label className="dialog-caption">
                   Selecione e copie o link:
-                  <input
-                    ref={manualInput}
-                    readOnly
-                    value={linkUrl}
-                    style={{ width: '100%', padding: 12, fontSize: 16, marginTop: 8 }}
-                  />
+                  <input ref={manualInput} readOnly value={linkUrl} />
                 </label>
               ) : (
-                <button className="secondary" onClick={copyLink}>
+                <button className="btn ghost" onClick={copyLink}>
                   Copiar link do registro ↗
                 </button>
               )}
             </div>
-            <p className="dialog-caption" style={{ marginTop: 20 }}>
+            <p className="dialog-caption">
               Edição de 10/10/2026 · A existência de um registro não comprova crime.
             </p>
           </>

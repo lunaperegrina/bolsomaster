@@ -1,6 +1,5 @@
 import {
   sourceName,
-  badgeClass,
   isCorrection,
   episodeBySlug,
   type ArchiveCase,
@@ -21,7 +20,14 @@ export function RecordCard({
   return (
     <article className="record" data-record-id={record.id}>
       <div className="record-meta">
-        <span className={`status ${badgeClass(record.kind)}`}>{record.kind}</span>
+        <span className="record-id">REGISTRO {record.number}</span>
+        {isCorrection(record.kind) ? (
+          <span className={`chip ${record.kind === 'Atualizado' ? 'tint-up' : 'tint-warn'}`}>
+            {record.kind}
+          </span>
+        ) : (
+          <span className="record-category">{record.kind}</span>
+        )}
         <span className="record-category">{record.category}</span>
         {episode && <span className="record-episode">Caso: {episode.title}</span>}
       </div>
