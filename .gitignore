@@ -8,3 +8,6 @@ out
 
 # artefatos de teste
 .playwright-mcp
+
+# artefatos de sessão zcode
+.zcode

@@ -1,0 +1,126 @@
+{
+  "date": "10 de outubro de 2026",
+  "source": {
+    "author": "@loverhaunted",
+    "url": "https://x.com/loverhaunted/status/2107848205736054930"
+  },
+  "items": [
+    {
+      "id": "cards-compartilhaveis",
+      "title": "Cards compartilháveis",
+      "description": "Artes prontas para compartilhar no WhatsApp, nos status e nas redes.",
+      "url": "https://quemcomparavotalula13.netlify.app/",
+      "category": "compartilhar",
+      "type": "site",
+      "featured": true
+    },
+    {
+      "id": "acervo-da-vitoria",
+      "title": "Acervo da Vitória",
+      "description": "Vídeos, artes, guias e novelinhas de IA prontos para divulgar.",
+      "url": "https://acervodavitoria.pages.dev/",
+      "category": "compartilhar",
+      "type": "site"
+    },
+    {
+      "id": "drive-artes-ia",
+      "title": "Drive de artes de IA",
+      "description": "Pasta com artes informativas e geradas por IA para baixar.",
+      "url": "https://drive.google.com/drive/folders/1qO60snO0Ws_bJCHQvq5399LXMRVpI3-r",
+      "category": "compartilhar",
+      "type": "drive"
+    },
+    {
+      "id": "cards-whatsapp",
+      "title": "Cards para status de WhatsApp",
+      "description": "Cards simples e rápidos de publicar nos seus status.",
+      "url": "https://drive.google.com/drive/folders/1Go0FMKcGD0hrEbe9YQwb4PKo2NNW0otJ",
+      "category": "compartilhar",
+      "type": "drive"
+    },
+    {
+      "id": "verdade-ou-boato",
+      "title": "Verdade ou Boato",
+      "description": "Jogo interativo que separa propostas reais de fake news.",
+      "url": "https://verdade-ou-boato-eleicoes26.netlify.app/",
+      "category": "jogos",
+      "type": "jogo",
+      "featured": true
+    },
+    {
+      "id": "superflavio",
+      "title": "SuperFlávio",
+      "description": "Jogo estilo Mario Bros pela trajetória política de Flávio Bolsonaro.",
+      "url": "https://superflavio.com/",
+      "category": "jogos",
+      "type": "jogo",
+      "featured": true
+    },
+    {
+      "id": "materiais-oficiais",
+      "title": "Materiais oficiais da campanha",
+      "description": "Artes e peças oficiais para baixar no site da campanha.",
+      "url": "https://casa13.pt.org.br/materiais",
+      "category": "rua",
+      "type": "site"
+    },
+    {
+      "id": "pontos-de-coleta",
+      "title": "Pontos de coleta de material impresso",
+      "description": "Endereços por estado para pegar material de rua.",
+      "url": "https://comitepopular.org.br/onde-pegar-material-de-campanha-veja-o-endereco-do-seu-estado/",
+      "category": "rua",
+      "type": "mapa",
+      "featured": true
+    },
+    {
+      "id": "drive-lambes",
+      "title": "Materiais para lambe-lambe",
+      "description": "Pasta com artes prontas para imprimir, colar e ocupar a cidade.",
+      "url": "https://drive.google.com/drive/folders/1cHCWMsgwF6mz5FHTO3N_E3o0cIAlK1d7",
+      "category": "rua",
+      "type": "drive"
+    },
+    {
+      "id": "lambes-qr",
+      "title": "Lambe-lambes com QR code",
+      "description": "Artes de rua com QR code que abre reels direto no Instagram.",
+      "url": "https://x.com/ajinomotonesal/status/2107435307951882542",
+      "category": "rua",
+      "type": "tweet",
+      "note": "O link abre o post no X com os modelos e o QR."
+    },
+    {
+      "id": "provas-interferencia",
+      "title": "Provas de interferência estrangeira",
+      "description": "Dossiê com as provas de interferência norte-americana na eleição de 2026.",
+      "url": "https://drive.google.com/file/d/1gjvyGZNzMQ3nXfqFxZ8uy1MRnddt8wm1/view",
+      "category": "documentacao",
+      "type": "pdf"
+    },
+    {
+      "id": "arquivo-documentado",
+      "title": "Arquivo documentado",
+      "description": "O que MP, PF, STF e imprensa documentaram sobre Flávio, família e aliados.",
+      "url": "https://coletivodemocracia.vercel.app/",
+      "category": "documentacao",
+      "type": "site"
+    },
+    {
+      "id": "acervo-do-site",
+      "title": "Acervo deste site: 106 registros",
+      "description": "Busca por nome ou assunto, com as fontes de cada registro.",
+      "url": "/",
+      "category": "documentacao",
+      "type": "interno"
+    },
+    {
+      "id": "onde-conversar",
+      "title": "Onde dá pra conversar",
+      "description": "Locais para debater com eleitores na sua região e virar voto.",
+      "url": "https://ondedapraconversar.com.br/#/perto",
+      "category": "debate",
+      "type": "mapa"
+    }
+  ]
+}

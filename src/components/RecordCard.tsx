@@ -1,19 +1,29 @@
-import { sourceName, badgeClass, isCorrection, type ArchiveCase } from '../lib/archive'
+import {
+  sourceName,
+  badgeClass,
+  isCorrection,
+  episodeBySlug,
+  type ArchiveCase,
+} from '../lib/archive'
 
 export function RecordCard({
   record,
   onOpen,
+  showEpisode = false,
 }: {
   record: ArchiveCase
   onOpen: (id: string) => void
+  showEpisode?: boolean
 }) {
   const source = record.links.find((url) => /^https?:\/\//.test(url))
+  const episode = showEpisode && record.episode ? episodeBySlug[record.episode] : undefined
 
   return (
-    <article className="record">
+    <article className="record" data-record-id={record.id}>
       <div className="record-meta">
         <span className={`status ${badgeClass(record.kind)}`}>{record.kind}</span>
         <span className="record-category">{record.category}</span>
+        {episode && <span className="record-episode">Caso: {episode.title}</span>}
       </div>
       <h3>
         <button onClick={() => onOpen(record.id)}>{record.title}</button>

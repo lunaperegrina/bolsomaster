@@ -1,5 +1,14 @@
 import raw from '../data/archive.json'
 
+export interface Episode {
+  slug: string
+  title: string
+  blurb: string
+  what: string
+  flavio: string
+  response: string
+}
+
 export interface ArchiveEntry {
   text: string
   pages: number[]
@@ -11,6 +20,8 @@ export interface ArchiveEntry {
   note: string
   summary: string
   extraLinks: string[]
+  episode?: string
+  sourceDate?: string
 }
 
 export interface ArchiveCase extends ArchiveEntry {
@@ -29,6 +40,12 @@ export const cases: ArchiveCase[] = (raw.cases as ArchiveEntry[]).map((c, i) => 
 
 export const sourceCount = raw.sourceCount
 export const editionDate = raw.date
+
+export const episodes: Episode[] = raw.episodes as Episode[]
+
+export const episodeBySlug: Record<string, Episode> = Object.fromEntries(
+  episodes.map((e) => [e.slug, e]),
+)
 
 export const filterButtons: { value: string; label: string }[] = [
   { value: '', label: 'Todos' },
@@ -57,6 +74,7 @@ const names: Record<string, string> = {
   'www.em.com.br': 'Estado de Minas',
   'veja.abril.com.br': 'Veja',
   'www.youtube.com': 'YouTube',
+  'www.poder360.com.br': 'Poder360',
 }
 
 export function sourceName(url: string): string {

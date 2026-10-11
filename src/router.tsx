@@ -1,10 +1,16 @@
 import { createRootRoute, createRoute, createRouter, Outlet } from '@tanstack/react-router'
 import { ArchivePage } from './components/ArchivePage'
+import { MaterialsPage } from './components/MaterialsPage'
 
 interface ArchiveSearch {
   q?: string
   cat?: string
   registro?: string
+}
+
+interface MaterialsSearch {
+  q?: string
+  cat?: string
 }
 
 function RootLayout() {
@@ -28,7 +34,28 @@ const indexRoute = createRoute({
   component: ArchivePage,
 })
 
-export const routeTree = rootRoute.addChildren([indexRoute])
+const materialsRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/materiais',
+  validateSearch: (search: Record<string, unknown>): MaterialsSearch => ({
+    q: str(search.q),
+    cat: str(search.cat),
+  }),
+  component: MaterialsPage,
+})
+
+const recordRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: '/registro/$id',
+  component: RecordRoutePage,
+})
+
+function RecordRoutePage() {
+  const { id } = recordRoute.useParams()
+  return <ArchivePage recordIdFromPath={id} />
+}
+
+export const routeTree = rootRoute.addChildren([indexRoute, materialsRoute, recordRoute])
 
 export const router = createRouter({ routeTree })
 

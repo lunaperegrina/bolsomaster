@@ -16,7 +16,9 @@
    "summary": "Reportagem do Estado de Minas informa que Flávio passou a ser investigado pelo financiamento do filme sobre Jair Bolsonaro. Ele nega irregularidades.",
    "extraLinks": [
     "https://www.em.com.br/politica/2026/09/7498387-flavio-bolsonaro-vira-investigado-do-dark-horse-que-segue-sob-sigilo.html"
-   ]
+   ],
+   "episode": "dark-horse",
+   "sourceDate": "11/09/2026"
   },
   {
    "text": "Flávio Bolsonaro negociou com Daniel Vorcaro R$ 134 milhões para bancar filme sobre Jair Bolsonaro; pelo menos R$ 61 milhões foram  pagos entre fevereiro e maio de 2025, em seis operações",
@@ -31,8 +33,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "O PDF cita negociação de R$ 134 milhões e pelo menos R$ 61 milhões em repasses para a produção. Não se deve apresentar financiamento do filme como recebimento pessoal comprovado do senador.",
-   "summary": "Segundo o PDF, o acordo com Daniel Vorcaro previa R$ 134 milhões, com ao menos R$ 61 milhões repassados para a produção. O destino dos recursos é objeto de apuração.",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Intercept Brasil: O acordo com Daniel Vorcaro previa R$ 134 milhões, com ao menos R$ 61 milhões repassados para a produção. O destino dos recursos é objeto de apuração.",
+   "extraLinks": [],
+   "episode": "dark-horse"
   },
   {
    "text": "Mensagens do celular de Vorcaro mostram pelo menos 11 meses de contato entre ele e Flávio Bolsonaro; são 110 registros, 14 ligações feitas (oito atendidas), e 5 fotos e vídeos de visualização única, enviados na semana anterior à prisão do banqueiro. Termos como “irmão”, “irmãozão” e “mermão” aparecem 16 vezes.",
@@ -47,8 +50,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "O próprio PDF distingue 14 ligações feitas de oito atendidas. A referência seguinte fala em outro recorte de conversas. Esses números não são intercambiáveis.",
-   "summary": "O PDF relata: Mensagens do celular de Vorcaro mostram pelo menos 11 meses de contato entre ele e Flávio Bolsonaro; são 110 registros, 14 ligações feitas (oito atendidas), e 5 fotos e vídeos de visualização única, enviados na semana anterior à prisão do banqueiro. Termos como “irmão”, “irmãozão” e “mermão” aparecem 16 vezes.",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Mensagens do celular de Vorcaro mostram pelo menos 11 meses de contato entre ele e Flávio Bolsonaro; são 110 registros, 14 ligações feitas (oito atendidas), e 5 fotos e vídeos de visualização única, enviados na semana anterior à prisão do banqueiro. Termos como “irmão”, “irmãozão” e “mermão” aparecem 16 vezes.",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio dividia conta com suspeito de lavar dinheiro do INSS (Willer Tomaz), indicam emails",
@@ -65,7 +69,8 @@
    "kind": "Alegação no PDF",
    "note": "O UOL relata e-mails que vinculavam a conta identificada com o nome de Flávio ao mesmo usuário bancário associado a Willer Tomaz. Ambos negam relação financeira. O vínculo de acesso, isoladamente, não demonstra titularidade conjunta nem origem ilícita dos valores.",
    "summary": "E-mails obtidos pela PF indicariam um vínculo de acesso bancário entre uma conta de Flávio e Willer Tomaz, segundo o UOL. Ambos negam relação financeira.",
-   "extraLinks": []
+   "extraLinks": [],
+   "episode": "vinculos"
   },
   {
    "text": "PF investiga empréstimo do BRB a Flávio Bolsonaro para compra de uma mansão avaliada em R$ 6 milhões; juros abaixo do valor de mercado",
@@ -80,8 +85,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: PF investiga empréstimo do BRB a Flávio Bolsonaro para compra de uma mansão avaliada em R$ 6 milhões; juros abaixo do valor de mercado",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: PF investiga empréstimo do BRB a Flávio Bolsonaro para compra de uma mansão avaliada em R$ 6 milhões; juros abaixo do valor de mercado",
+   "extraLinks": [],
+   "episode": "mansao"
   },
   {
    "text": "Empresas de Flávio Bolsonaro e Careca do INSS (16 firmas) dividem a mesma sala em Brasília. Empresa do candidato usou, além dos mesmos serviços de contabilidade, a mesma estrutura. Irmã do contador é também administradora do escritório de advocacia de Flávio",
@@ -96,8 +102,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Empresas de Flávio Bolsonaro e Careca do INSS (16 firmas) dividem a mesma sala em Brasília. Empresa do candidato usou, além dos mesmos serviços de contabilidade, a mesma estrutura. Irmã do contador é também administradora do escritório de advocacia de Flávio",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Empresas de Flávio Bolsonaro e Careca do INSS (16 firmas) dividem a mesma sala em Brasília. Empresa do candidato usou, além dos mesmos serviços de contabilidade, a mesma estrutura. Irmã do contador é também administradora do escritório de advocacia de Flávio",
+   "extraLinks": [],
+   "episode": "vinculos"
   },
   {
    "text": "Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro",
@@ -112,8 +119,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro",
-   "extraLinks": []
+   "summary": "Segundo reportagem de Aos Fatos: Flávio mentiu ao menos 43 vezes sobre elo com Vorcaro",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Celular de Vorcaro tinha 3 meses de conversas com Flavio Bolsonaro e menção a seis encontros pessoalmente",
@@ -128,8 +136,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Celular de Vorcaro tinha 3 meses de conversas com Flavio Bolsonaro e menção a seis encontros pessoalmente",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Estadão: Celular de Vorcaro tinha 3 meses de conversas com Flavio Bolsonaro e menção a seis encontros pessoalmente",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "“Irmão, estou e estarei contigo sempre, não tem meia conversa entre a gente. Só preciso que me dê uma luz! Abs!”, escreveu o senador Flávio Bolsonaro, do PL do Rio de Janeiro, ao dono do Banco Master, Daniel Vorcaro, em uma mensagem enviada pelo WhatsApp em 16 de novembro de 2025. Um dia após a mensagem de Flávio, Vorcaro foi preso enquanto tentava fugir do país.",
@@ -144,8 +153,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: “Irmão, estou e estarei contigo sempre, não tem meia conversa entre a gente. Só preciso que me dê uma luz! Abs!”, escreveu o senador Flávio Bolsonaro, do PL do Rio de Janeiro, ao dono do Banco Master, Daniel Vorcaro, em uma mensagem enviada pelo WhatsApp em 16 de novembro de 2025. Um dia após a mensagem de Flávio, Vorcaro foi preso enquanto tentava fugir do país.",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Intercept Brasil: “Irmão, estou e estarei contigo sempre, não tem meia conversa entre a gente. Só preciso que me dê uma luz! Abs!”, escreveu o senador Flávio Bolsonaro, do PL do Rio de Janeiro, ao dono do Banco Master, Daniel Vorcaro, em uma mensagem enviada pelo WhatsApp em 16 de novembro de 2025. Um dia após a mensagem de Flávio, Vorcaro foi preso enquanto tentava fugir do país.",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio Bolsonaro visitou Vorcaro na casa dele um dia após deixar prisão (fim de 2025)",
@@ -160,8 +170,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro visitou Vorcaro na casa dele um dia após deixar prisão (fim de 2025)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de Metrópoles: Flávio Bolsonaro visitou Vorcaro na casa dele um dia após deixar prisão (fim de 2025)",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio visitou Vorcaro um dia antes de ser anunciado presidenciável (dezembro 2025)",
@@ -176,8 +187,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio visitou Vorcaro um dia antes de ser anunciado presidenciável (dezembro 2025)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de Metrópoles: Flávio visitou Vorcaro um dia antes de ser anunciado presidenciável (dezembro 2025)",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio viajou a SP com dinheiro público 1 dia após soltura de Vorcaro",
@@ -192,8 +204,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio viajou a SP com dinheiro público 1 dia após soltura de Vorcaro",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Poder360: Flávio viajou a SP com dinheiro público 1 dia após soltura de Vorcaro",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio Bolsonaro viajou em jato de Vorcaro em janeiro de 2025 Estava acompanhado da família e de Willer Tomaz, o advogado e empresário que já foi preso no escândalo da JBS e é investigado nos desvios bilionários do INSS",
@@ -208,8 +221,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro viajou em jato de Vorcaro em janeiro de 2025 Estava acompanhado da família e de Willer Tomaz, o advogado e empresário que já foi preso no escândalo da JBS e é investigado nos desvios bilionários do INSS",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Flávio Bolsonaro viajou em jato de Vorcaro em janeiro de 2025 Estava acompanhado da família e de Willer Tomaz, o advogado e empresário que já foi preso no escândalo da JBS e é investigado nos desvios bilionários do INSS",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Flávio viajou com Vorcaro para os EUA em feriado prolongado de 1 de maio de 2025 “Dias depois de um repasse milionário para Dark Horse, o senador e o banqueiro pousaram em Fort Lauderdale quase ao mesmo tempo – e partiram dias depois, com menos de três horas de diferença”",
@@ -224,8 +238,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio viajou com Vorcaro para os EUA em feriado prolongado de 1 de maio de 2025 “Dias depois de um repasse milionário para Dark Horse, o senador e o banqueiro pousaram em Fort Lauderdale quase ao mesmo tempo – e partiram dias depois, com menos de três horas de diferença”",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Flávio viajou com Vorcaro para os EUA em feriado prolongado de 1 de maio de 2025 “Dias depois de um repasse milionário para Dark Horse, o senador e o banqueiro pousaram em Fort Lauderdale quase ao mesmo tempo – e partiram dias depois, com menos de três horas de diferença”",
+   "extraLinks": [],
+   "episode": "dark-horse"
   },
   {
    "text": "Flávio usou imóvel de cunhado de Vorcaro durante campanha em São Paulo. Apartamento foi comprado de Fabiano Zettel por Willer Tomaz",
@@ -240,8 +255,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio usou imóvel de cunhado de Vorcaro durante campanha em São Paulo. Apartamento foi comprado de Fabiano Zettel por Willer Tomaz",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Flávio usou imóvel de cunhado de Vorcaro durante campanha em São Paulo. Apartamento foi comprado de Fabiano Zettel por Willer Tomaz",
+   "extraLinks": [],
+   "episode": "vinculos"
   },
   {
    "text": "Flávio Bolsonaro celebrou aniversário da filha em mansão gerida por empresa de Vorcaro",
@@ -256,8 +272,9 @@
    "category": "Banco Master e INSS",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro celebrou aniversário da filha em mansão gerida por empresa de Vorcaro",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Flávio Bolsonaro celebrou aniversário da filha em mansão gerida por empresa de Vorcaro",
+   "extraLinks": [],
+   "episode": "vorcaro"
   },
   {
    "text": "Dinheiro do Vorcaro e do Master = dinheiro de aposentados do INSS",
@@ -272,8 +289,9 @@
    "category": "Banco Master e INSS",
    "kind": "Contexto",
    "note": "O PDF associa os dois casos. O vínculo entre uma operação específica e recursos desviados do INSS precisa de demonstração própria; essa frase não comprova a origem de todo o dinheiro do banco.",
-   "summary": "O PDF menciona: Dinheiro do Vorcaro e do Master = dinheiro de aposentados do INSS",
-   "extraLinks": []
+   "summary": "Segundo o documento: Dinheiro do Vorcaro e do Master = dinheiro de aposentados do INSS",
+   "extraLinks": [],
+   "episode": "master-inss"
   },
   {
    "text": "Flávio é o único candidato a presidente com contato e recebimento provado de dinheiro do Banco Master",
@@ -286,8 +304,9 @@
    "category": "Banco Master e INSS",
    "kind": "Contexto",
    "note": "A afirmação de que seria o único candidato não foi verificada neste acervo. Recebimento, destino e natureza de valores precisam ser demonstrados separadamente.",
-   "summary": "O PDF menciona: Flávio é o único candidato a presidente com contato e recebimento provado de dinheiro do Banco Master",
-   "extraLinks": []
+   "summary": "Segundo o documento: Flávio é o único candidato a presidente com contato e recebimento provado de dinheiro do Banco Master",
+   "extraLinks": [],
+   "episode": "master-inss"
   },
   {
    "text": "Dinheiro que Flávio recebeu de Vorcaro (61 milhões) é 34x o valor do sítio de Atibaia atribuído ao Lula (R$ 1,8 milhões) e 27x o valor do triplex do Guarujá (R$ 2,2 milhões)",
@@ -303,8 +322,9 @@
    "category": "Banco Master e INSS",
    "kind": "Contexto",
    "note": "Os valores e proporções são comparações do autor do PDF. Não estabelecem equivalência entre processos, fatos ou responsabilidades. Os montantes do filme não comprovam recebimento pessoal por Flávio.",
-   "summary": "O PDF menciona: Dinheiro que Flávio recebeu de Vorcaro (61 milhões) é 34x o valor do sítio de Atibaia atribuído ao Lula (R$ 1,8 milhões) e 27x o valor do triplex do Guarujá (R$ 2,2 milhões)",
-   "extraLinks": []
+   "summary": "Segundo o documento: Dinheiro que Flávio recebeu de Vorcaro (61 milhões) é 34x o valor do sítio de Atibaia atribuído ao Lula (R$ 1,8 milhões) e 27x o valor do triplex do Guarujá (R$ 2,2 milhões)",
+   "extraLinks": [],
+   "episode": "master-inss"
   },
   {
    "text": "Rombo do Caso Master (47 bilhões) é 7.5x maior que o prejuízo estimado da Lava Jato na Petrobras (6,2 bilhões) e 470x maior que o Mensalão (101 milhões)",
@@ -320,8 +340,9 @@
    "category": "Banco Master e INSS",
    "kind": "Contexto",
    "note": "Os valores comparam grandezas e casos diferentes. Não representam uma medida comparável de culpa, de corrupção comprovada ou de prejuízo judicialmente fixado.",
-   "summary": "O PDF menciona: Rombo do Caso Master (47 bilhões) é 7.5x maior que o prejuízo estimado da Lava Jato na Petrobras (6,2 bilhões) e 470x maior que o Mensalão (101 milhões)",
-   "extraLinks": []
+   "summary": "Segundo o documento: Rombo do Caso Master (47 bilhões) é 7.5x maior que o prejuízo estimado da Lava Jato na Petrobras (6,2 bilhões) e 470x maior que o Mensalão (101 milhões)",
+   "extraLinks": [],
+   "episode": "master-inss"
   },
   {
    "text": "Cunhado de Vorcaro, Fabiano Zettel foi o maior doador de campanhas de Jair Bolsonaro (R$ 3 milhões, 2022) e Tarcísio de Freitas (R$ 2 milhões, 2022)",
@@ -336,7 +357,7 @@
    "category": "Aliados políticos",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Cunhado de Vorcaro, Fabiano Zettel foi o maior doador de campanhas de Jair Bolsonaro (R$ 3 milhões, 2022) e Tarcísio de Freitas (R$ 2 milhões, 2022)",
+   "summary": "Segundo o documento: Cunhado de Vorcaro, Fabiano Zettel foi o maior doador de campanhas de Jair Bolsonaro (R$ 3 milhões, 2022) e Tarcísio de Freitas (R$ 2 milhões, 2022)",
    "extraLinks": []
   },
   {
@@ -352,8 +373,9 @@
    "category": "STF e instituto ITER",
    "kind": "Contexto",
    "note": "A descrição de uma troca ilícita de favores é uma hipótese do documento. A aquisição de precatórios ou uma decisão favorável, isoladamente, não comprova corrupção.",
-   "summary": "O PDF menciona: Esquema: Master ganhava dinheiro dependendo de decisões judiciais Banco comprava de empresas dívidas que as empresas cobravam na justiça do governo federal (precatórios) Precisavam de ministros votando a favor, e Vorcaro devolvia com $ ou favores",
-   "extraLinks": []
+   "summary": "Segundo o documento: Esquema: Master ganhava dinheiro dependendo de decisões judiciais Banco comprava de empresas dívidas que as empresas cobravam na justiça do governo federal (precatórios) Precisavam de ministros votando a favor, e Vorcaro devolvia com $ ou favores",
+   "extraLinks": [],
+   "episode": "nunes-marques"
   },
   {
    "text": "01/10/2024 Master ganhou causa de mais de 1 bilhão no STF por 3x2, voto favorável de desempate de KNM (Destilaria Alcídia)",
@@ -368,8 +390,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 01/10/2024 Master ganhou causa de mais de 1 bilhão no STF por 3x2, voto favorável de desempate de KNM (Destilaria Alcídia)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do UOL: 01/10/2024 Master ganhou causa de mais de 1 bilhão no STF por 3x2, voto favorável de desempate de KNM (Destilaria Alcídia)",
+   "extraLinks": [],
+   "episode": "nunes-marques"
   },
   {
    "text": "06/2025 Master ganhou outra causa no STF por 3x2, voto favorável de desempate de KNM (indenização de usinas) → diretor jurídico do Master fala para Vorcaro sobre pagamento mensal a filho de KNM",
@@ -384,8 +407,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 06/2025 Master ganhou outra causa no STF por 3x2, voto favorável de desempate de KNM (indenização de usinas) → diretor jurídico do Master fala para Vorcaro sobre pagamento mensal a filho de KNM",
-   "extraLinks": []
+   "summary": "Segundo reportagem do UOL: 06/2025 Master ganhou outra causa no STF por 3x2, voto favorável de desempate de KNM (indenização de usinas) → diretor jurídico do Master fala para Vorcaro sobre pagamento mensal a filho de KNM",
+   "extraLinks": [],
+   "episode": "nunes-marques"
   },
   {
    "text": "Em recompensas, Kassio recebeu 427 milhões (honorários “Turma do KN”) + pagamentos de 500 mil mensais ao filho do ministro + luxos (estadias no Fasano, camarotes de carnaval, ingressos de Fórmula 1, etc) + pagamento de garotas de programa em apartamento de cunhado de Vorcaro",
@@ -403,7 +427,8 @@
    "kind": "Nota de precisão",
    "note": "Correção de precisão: a CNN descreve honorários previstos em contrato de advocacia, condicionados a êxito nas causas, de até R$ 427 milhões. Isso não demonstra recebimento pessoal desse valor por Kassio. A matéria também relata suspeitas de benefícios. O ministro negou agir em favor do banco, autorizar interlocutores e trocar mensagens com Vorcaro. Em outra reportagem, negou que o filho tenha prestado serviços ao Master.",
    "summary": "As referências citam um contrato de honorários, diálogos sobre supostos pagamentos ao filho do ministro e benefícios. Não comprovam pagamento pessoal de R$ 427 milhões a Kassio, que nega irregularidades.",
-   "extraLinks": []
+   "extraLinks": [],
+   "episode": "nunes-marques"
   },
   {
    "text": "Ele é atualmente presidente do Tribunal Superior Eleitoral (TSE), conduzindo as eleições de 2026",
@@ -416,7 +441,7 @@
    "category": "STF e instituto ITER",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Ele é atualmente presidente do Tribunal Superior Eleitoral (TSE), conduzindo as eleições de 2026",
+   "summary": "Segundo o documento: Ele é atualmente presidente do Tribunal Superior Eleitoral (TSE), conduzindo as eleições de 2026",
    "extraLinks": []
   },
   {
@@ -432,8 +457,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 08/02/2025: Advogado de Vorcaro (Ciro Rocha Soares) enviou a Vorcaro uma foto ao lado de Mendonça e afirmou que estava “trabalhando” para o banqueiro enquanto levava o ministro a uma alfaiataria",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: 08/02/2025: Advogado de Vorcaro (Ciro Rocha Soares) enviou a Vorcaro uma foto ao lado de Mendonça e afirmou que estava “trabalhando” para o banqueiro enquanto levava o ministro a uma alfaiataria",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Alfaiataria visitada por Mendonça e advogado de Vorcaro não esclarece encomenda nem mostra recibos. Vorcaro gastou R$ 500 mil na alfaiataria onde esteve Mendonça. Notas apresentadas por Mendonça registravam ‘sem pagamento’",
@@ -450,8 +476,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Alfaiataria visitada por Mendonça e advogado de Vorcaro não esclarece encomenda nem mostra recibos. Vorcaro gastou R$ 500 mil na alfaiataria onde esteve Mendonça. Notas apresentadas por Mendonça registravam ‘sem pagamento’",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: Alfaiataria visitada por Mendonça e advogado de Vorcaro não esclarece encomenda nem mostra recibos. Vorcaro gastou R$ 500 mil na alfaiataria onde esteve Mendonça. Notas apresentadas por Mendonça registravam ‘sem pagamento’",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "16/02/2025: Advogado diz “Opa, Dani!!! Preciso muito falar com você. O A.M. quer recebê-lo. E preciso agendar o quanto antes.” Também diz: “O André quer te receber. Acho que eu dei uma balançada nele naquele assunto.” (Banco Central)",
@@ -466,8 +493,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 16/02/2025: Advogado diz “Opa, Dani!!! Preciso muito falar com você. O A.M. quer recebê-lo. E preciso agendar o quanto antes.” Também diz: “O André quer te receber. Acho que eu dei uma balançada nele naquele assunto.” (Banco Central)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: 16/02/2025: Advogado diz “Opa, Dani!!! Preciso muito falar com você. O A.M. quer recebê-lo. E preciso agendar o quanto antes.” Também diz: “O André quer te receber. Acho que eu dei uma balançada nele naquele assunto.” (Banco Central)",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "17/02/2025: Advogado pediu que Bruno Bianco Leal, ministro da AGU durante o governo de Jair Bolsonaro, também participasse da reunião",
@@ -482,8 +510,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 17/02/2025: Advogado pediu que Bruno Bianco Leal, ministro da AGU durante o governo de Jair Bolsonaro, também participasse da reunião",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: 17/02/2025: Advogado pediu que Bruno Bianco Leal, ministro da AGU durante o governo de Jair Bolsonaro, também participasse da reunião",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "19/02/2025: Reunião acontece (Cezinha de Madureira estava)",
@@ -498,8 +527,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 19/02/2025: Reunião acontece (Cezinha de Madureira estava)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: 19/02/2025: Reunião acontece (Cezinha de Madureira estava)",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "14/03/2025: Menos de um mês depois, Mendonça usou a sede do ITER em São Paulo para se encontrar com Vorcaro novamente, por duas horas, fora da agenda oficial",
@@ -514,8 +544,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 14/03/2025: Menos de um mês depois, Mendonça usou a sede do ITER em São Paulo para se encontrar com Vorcaro novamente, por duas horas, fora da agenda oficial",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: 14/03/2025: Menos de um mês depois, Mendonça usou a sede do ITER em São Paulo para se encontrar com Vorcaro novamente, por duas horas, fora da agenda oficial",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "15/03/2025: No dia seguinte ao encontro, um julgamento sobre concessão de cemitérios foi suspenso após pedido de vista de André Mendonça. Fundos do Banco Master tinham interesse em temas referentes à privatização de cemitérios. O irmão de Mendonça atua justamente na área funerária e cemiterial da SP Regula, agência reguladora de serviços públicos municipais",
@@ -530,8 +561,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: 15/03/2025: No dia seguinte ao encontro, um julgamento sobre concessão de cemitérios foi suspenso após pedido de vista de André Mendonça. Fundos do Banco Master tinham interesse em temas referentes à privatização de cemitérios. O irmão de Mendonça atua justamente na área funerária e cemiterial da SP Regula, agência reguladora de serviços públicos municipais",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Valor Econômico: 15/03/2025: No dia seguinte ao encontro, um julgamento sobre concessão de cemitérios foi suspenso após pedido de vista de André Mendonça. Fundos do Banco Master tinham interesse em temas referentes à privatização de cemitérios. O irmão de Mendonça atua justamente na área funerária e cemiterial da SP Regula, agência reguladora de serviços públicos municipais",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Vorcaro foi chamado pelo menos duas vezes a coquetel de instituto INTER de Mendonça com ‘poucos convidados’ (05/2025)",
@@ -546,8 +578,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Vorcaro foi chamado pelo menos duas vezes a coquetel de instituto INTER de Mendonça com ‘poucos convidados’ (05/2025)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Vorcaro foi chamado pelo menos duas vezes a coquetel de instituto INTER de Mendonça com ‘poucos convidados’ (05/2025)",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Mendonça viajou em helicóptero de empresa de ex-sócio de Vorcaro em 08/2025 - (que meses depois dez aporte de 5,2 milhões ao ITER)",
@@ -562,8 +595,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça viajou em helicóptero de empresa de ex-sócio de Vorcaro em 08/2025 - (que meses depois dez aporte de 5,2 milhões ao ITER)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do UOL: Mendonça viajou em helicóptero de empresa de ex-sócio de Vorcaro em 08/2025 - (que meses depois dez aporte de 5,2 milhões ao ITER)",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Instituto ITER, fundado por Mendonça, recebeu R$ 5,2 milhões da empresa do sócio de Vorcaro em janeiro de 2026. No mês seguinte, Mendonça foi sorteado relator do caso Master no STF",
@@ -578,8 +612,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Instituto ITER, fundado por Mendonça, recebeu R$ 5,2 milhões da empresa do sócio de Vorcaro em janeiro de 2026. No mês seguinte, Mendonça foi sorteado relator do caso Master no STF",
-   "extraLinks": []
+   "summary": "Segundo reportagem do UOL: Instituto ITER, fundado por Mendonça, recebeu R$ 5,2 milhões da empresa do sócio de Vorcaro em janeiro de 2026. No mês seguinte, Mendonça foi sorteado relator do caso Master no STF",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Mendonça negou pedido da PF para impedir que mulher de Sicário viajasse a Dubai",
@@ -594,8 +629,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça negou pedido da PF para impedir que mulher de Sicário viajasse a Dubai",
-   "extraLinks": []
+   "summary": "Segundo reportagem do UOL: Mendonça negou pedido da PF para impedir que mulher de Sicário viajasse a Dubai",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Gabinete de Mendonça ouviu Vorcaro em 27/08/2026 sem a PF e no horário de depoimento frustrado à PF; oitiva estava marcada para às 10h e foi adiada por 'problema técnico'; depoimento está sob sigilo",
@@ -610,8 +646,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Gabinete de Mendonça ouviu Vorcaro em 27/08/2026 sem a PF e no horário de depoimento frustrado à PF; oitiva estava marcada para às 10h e foi adiada por 'problema técnico'; depoimento está sob sigilo",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Gabinete de Mendonça ouviu Vorcaro em 27/08/2026 sem a PF e no horário de depoimento frustrado à PF; oitiva estava marcada para às 10h e foi adiada por 'problema técnico'; depoimento está sob sigilo",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Mendonça afasta diretor da Polícia Federal, e sem ouvir PGR (08/09/2026)",
@@ -626,8 +663,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça afasta diretor da Polícia Federal, e sem ouvir PGR (08/09/2026)",
-   "extraLinks": []
+   "summary": "Segundo reportagem da CNN Brasil: Mendonça afasta diretor da Polícia Federal, e sem ouvir PGR (08/09/2026)",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Diretor da PF afastado por Mendonça prendeu Vorcaro e flagrou esquema de fraudes no INSS",
@@ -642,8 +680,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Diretor da PF afastado por Mendonça prendeu Vorcaro e flagrou esquema de fraudes no INSS",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Diretor da PF afastado por Mendonça prendeu Vorcaro e flagrou esquema de fraudes no INSS",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "André Mendonça revoga prisão do filho do Careca do INSS (09/09/2026)",
@@ -658,8 +697,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: André Mendonça revoga prisão do filho do Careca do INSS (09/09/2026)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: André Mendonça revoga prisão do filho do Careca do INSS (09/09/2026)",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "AGU:Mendonça usurpou competência de Fachin ao afastar cúpula da PF",
@@ -674,8 +714,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: AGU:Mendonça usurpou competência de Fachin ao afastar cúpula da PF",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: AGU:Mendonça usurpou competência de Fachin ao afastar cúpula da PF",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Mendonça afastou diretor da PF três dias depois que Dino autorizou operação contra seus aliados (Cezinha de Madureira)",
@@ -690,8 +731,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça afastou diretor da PF três dias depois que Dino autorizou operação contra seus aliados (Cezinha de Madureira)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Mendonça afastou diretor da PF três dias depois que Dino autorizou operação contra seus aliados (Cezinha de Madureira)",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Tarcísio financiou 24% da campanha de deputado (Cezinha de Madureira) que aproximou Mendonça e Vorcaro em 2022",
@@ -706,8 +748,9 @@
    "category": "STF e instituto ITER",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Tarcísio financiou 24% da campanha de deputado (Cezinha de Madureira) que aproximou Mendonça e Vorcaro em 2022",
-   "extraLinks": []
+   "summary": "Segundo o documento: Tarcísio financiou 24% da campanha de deputado (Cezinha de Madureira) que aproximou Mendonça e Vorcaro em 2022",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Cezinha de Madureira tinha porta-retrato com Mendonça na sala de casa",
@@ -722,8 +765,9 @@
    "category": "STF e instituto ITER",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Cezinha de Madureira tinha porta-retrato com Mendonça na sala de casa",
-   "extraLinks": []
+   "summary": "Segundo o documento: Cezinha de Madureira tinha porta-retrato com Mendonça na sala de casa",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "ITER firmou ao menos 52 contratos sem licitação com prefeituras, governos estaduais e tribunais, totalizando cerca de R$ 8,2 milhões de verbas públicas em dois anos. Incluindo governo estadual de Tarcísio (R$ 1,6 milhão), prefeitura de São Paulo de Ricardo Nunes (R$ 380 mil) e governo estadual de Cláudio Castro (R$ 518 mil)",
@@ -738,8 +782,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "O levantamento citado usa um recorte diferente do registro seguinte, de 55 contratos. Os valores não devem ser somados.",
-   "summary": "O PDF relata: ITER firmou ao menos 52 contratos sem licitação com prefeituras, governos estaduais e tribunais, totalizando cerca de R$ 8,2 milhões de verbas públicas em dois anos. Incluindo governo estadual de Tarcísio (R$ 1,6 milhão), prefeitura de São Paulo de Ricardo Nunes (R$ 380 mil) e governo estadual de Cláudio Castro (R$ 518 mil)",
-   "extraLinks": []
+   "summary": "Segundo reportagem de apublica.org: ITER firmou ao menos 52 contratos sem licitação com prefeituras, governos estaduais e tribunais, totalizando cerca de R$ 8,2 milhões de verbas públicas em dois anos. Incluindo governo estadual de Tarcísio (R$ 1,6 milhão), prefeitura de São Paulo de Ricardo Nunes (R$ 380 mil) e governo estadual de Cláudio Castro (R$ 518 mil)",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Instituto de André Mendonça faturou ao menos R$ 10,8 mi em 55 contratos públicos, diz revista Fórum",
@@ -754,8 +799,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este é outro levantamento citado pelo PDF. Não é um valor adicional ao total de 52 contratos da referência anterior.",
-   "summary": "O PDF relata: Instituto de André Mendonça faturou ao menos R$ 10,8 mi em 55 contratos públicos, diz revista Fórum",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Instituto de André Mendonça faturou ao menos R$ 10,8 mi em 55 contratos públicos, diz revista Fórum",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Irmão de Mendonça foi promovido por Ricardo Nunes após voto favorável de ministro à Prefeitura",
@@ -770,8 +816,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Irmão de Mendonça foi promovido por Ricardo Nunes após voto favorável de ministro à Prefeitura",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Irmão de Mendonça foi promovido por Ricardo Nunes após voto favorável de ministro à Prefeitura",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Mendonça votou a favor de Castro 4 vezes na época em que seu instituto ganhou contratos no Rio",
@@ -786,8 +833,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça votou a favor de Castro 4 vezes na época em que seu instituto ganhou contratos no Rio",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Mendonça votou a favor de Castro 4 vezes na época em que seu instituto ganhou contratos no Rio",
+   "extraLinks": [],
+   "episode": "mendonca-iter"
   },
   {
    "text": "Mendonça foi alvo de um relatório da PF apontando variação e lentidão em prazos de decisões, como 9 dias no caso de Jaques Wagner e 75 dias para Cláudio Castro",
@@ -802,8 +850,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mendonça foi alvo de um relatório da PF apontando variação e lentidão em prazos de decisões, como 9 dias no caso de Jaques Wagner e 75 dias para Cláudio Castro",
-   "extraLinks": []
+   "summary": "Segundo reportagem da CNN Brasil: Mendonça foi alvo de um relatório da PF apontando variação e lentidão em prazos de decisões, como 9 dias no caso de Jaques Wagner e 75 dias para Cláudio Castro",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "PF aponta diferença de até 8 vezes no tempo de Mendonça em decidir sobre políticos",
@@ -818,8 +867,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: PF aponta diferença de até 8 vezes no tempo de Mendonça em decidir sobre políticos",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: PF aponta diferença de até 8 vezes no tempo de Mendonça em decidir sobre políticos",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Gilmar Mendes diz que STF achou em 24h dados do Master sobre ministros após meses com Mendonça",
@@ -834,8 +884,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Gilmar Mendes diz que STF achou em 24h dados do Master sobre ministros após meses com Mendonça",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Gilmar Mendes diz que STF achou em 24h dados do Master sobre ministros após meses com Mendonça",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "PF espera há seis meses decisão de Mendonça para rastrear dinheiro do Master; delegado alertou que retenção de dados pelo Coaf deixava uma “lacuna” no caminho do dinheiro",
@@ -850,8 +901,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: PF espera há seis meses decisão de Mendonça para rastrear dinheiro do Master; delegado alertou que retenção de dados pelo Coaf deixava uma “lacuna” no caminho do dinheiro",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: PF espera há seis meses decisão de Mendonça para rastrear dinheiro do Master; delegado alertou que retenção de dados pelo Coaf deixava uma “lacuna” no caminho do dinheiro",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Contra transparência, Mendonça recomenda manter sigilo do celular de Vorcaro",
@@ -866,8 +918,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Contra transparência, Mendonça recomenda manter sigilo do celular de Vorcaro",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Contra transparência, Mendonça recomenda manter sigilo do celular de Vorcaro",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Relatório da PF aponta que Mendonça pressionou por Moraes e poupou Toffoli e Kassio",
@@ -882,8 +935,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Relatório da PF aponta que Mendonça pressionou por Moraes e poupou Toffoli e Kassio",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Relatório da PF aponta que Mendonça pressionou por Moraes e poupou Toffoli e Kassio",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "Gonet diz que Mendonça investigou Moraes antes de aval do plenário e pede nulidade",
@@ -898,8 +952,9 @@
    "category": "STF e instituto ITER",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Gonet diz que Mendonça investigou Moraes antes de aval do plenário e pede nulidade",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Gonet diz que Mendonça investigou Moraes antes de aval do plenário e pede nulidade",
+   "extraLinks": [],
+   "episode": "stf-master-pf"
   },
   {
    "text": "PF afirma que Ciro Nogueira recebia pagamentos mensais de Vorcaro que variavam entre R$ 300 mil e R$ 500 mil",
@@ -914,8 +969,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: PF afirma que Ciro Nogueira recebia pagamentos mensais de Vorcaro que variavam entre R$ 300 mil e R$ 500 mil",
-   "extraLinks": []
+   "summary": "Segundo reportagem de agenciabrasil.ebc.com.br: PF afirma que Ciro Nogueira recebia pagamentos mensais de Vorcaro que variavam entre R$ 300 mil e R$ 500 mil",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "PF suspeita que Vorcaro pagou ao menos 3 viagens internacionais do senador Ciro Nogueira; em troca dessas viagens, hotéis, jantares e repasses de dinheiro, Ciro Nogueira usou o seu mandato de senador para tentar atender a interesses do dono do Banco Master no Congresso",
@@ -930,8 +986,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: PF suspeita que Vorcaro pagou ao menos 3 viagens internacionais do senador Ciro Nogueira; em troca dessas viagens, hotéis, jantares e repasses de dinheiro, Ciro Nogueira usou o seu mandato de senador para tentar atender a interesses do dono do Banco Master no Congresso",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: PF suspeita que Vorcaro pagou ao menos 3 viagens internacionais do senador Ciro Nogueira; em troca dessas viagens, hotéis, jantares e repasses de dinheiro, Ciro Nogueira usou o seu mandato de senador para tentar atender a interesses do dono do Banco Master no Congresso",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "Ciro apresentou a Emenda nº 11 à Proposta de Emenda à Constituição (PEC) nº 65, em agosto de 2024. O texto, que depois ficou conhecido como Emenda Master, ampliava a cobertura do Fundo Garantidor de Crédito (FGC) dos atuais R$ 250 mil para R$ 1 milhão por depositante",
@@ -946,8 +1003,9 @@
    "category": "Aliados políticos",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Ciro apresentou a Emenda nº 11 à Proposta de Emenda à Constituição (PEC) nº 65, em agosto de 2024. O texto, que depois ficou conhecido como Emenda Master, ampliava a cobertura do Fundo Garantidor de Crédito (FGC) dos atuais R$ 250 mil para R$ 1 milhão por depositante",
-   "extraLinks": []
+   "summary": "Segundo o documento: Ciro apresentou a Emenda nº 11 à Proposta de Emenda à Constituição (PEC) nº 65, em agosto de 2024. O texto, que depois ficou conhecido como Emenda Master, ampliava a cobertura do Fundo Garantidor de Crédito (FGC) dos atuais R$ 250 mil para R$ 1 milhão por depositante",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "Senador Ciro Nogueira é alvo da 5ª fase da Operação Compliance Zero",
@@ -962,8 +1020,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Senador Ciro Nogueira é alvo da 5ª fase da Operação Compliance Zero",
-   "extraLinks": []
+   "summary": "Segundo reportagem de agenciabrasil.ebc.com.br: Senador Ciro Nogueira é alvo da 5ª fase da Operação Compliance Zero",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "Imagens obtidas pela PF mostram Ciro Nogueira e Vorcaro nos Alpes franceses",
@@ -978,8 +1037,9 @@
    "category": "Aliados políticos",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Imagens obtidas pela PF mostram Ciro Nogueira e Vorcaro nos Alpes franceses",
-   "extraLinks": []
+   "summary": "Segundo o documento: Imagens obtidas pela PF mostram Ciro Nogueira e Vorcaro nos Alpes franceses",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "A farra de Ciro Nogueira e Daniel Vorcaro, em novas imagens; viagem a Courchevel de 2 milhões de reais foi custeada pelo ex-banqueiro",
@@ -994,8 +1054,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: A farra de Ciro Nogueira e Daniel Vorcaro, em novas imagens; viagem a Courchevel de 2 milhões de reais foi custeada pelo ex-banqueiro",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: A farra de Ciro Nogueira e Daniel Vorcaro, em novas imagens; viagem a Courchevel de 2 milhões de reais foi custeada pelo ex-banqueiro",
+   "extraLinks": [],
+   "episode": "ciro"
   },
   {
    "text": "Principal articulador e intermediário político e jurídico de Vorcaro com autoridades em Brasília e ministros de tribunais superiores",
@@ -1010,8 +1071,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Principal articulador e intermediário político e jurídico de Vorcaro com autoridades em Brasília e ministros de tribunais superiores",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Principal articulador e intermediário político e jurídico de Vorcaro com autoridades em Brasília e ministros de tribunais superiores",
+   "extraLinks": [],
+   "episode": "fabio-faria"
   },
   {
    "text": "Empresa ligada a Vorcaro pagou R$ 67,5 milhões por projeto de Fábio Faria",
@@ -1026,8 +1088,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Empresa ligada a Vorcaro pagou R$ 67,5 milhões por projeto de Fábio Faria",
-   "extraLinks": []
+   "summary": "Segundo reportagem de tab.uol.com.br: Empresa ligada a Vorcaro pagou R$ 67,5 milhões por projeto de Fábio Faria",
+   "extraLinks": [],
+   "episode": "fabio-faria"
   },
   {
    "text": "Mensagens recuperadas pela PF apontam que Faria auxiliou Vorcaro a convidar figuras públicas (incluindo parlamentares e ministros de Cortes Superiores) para festas privadas e eventos de alto luxo (cafetão de luxo), como uma festa de Halloween em 2023 e encontros internacionais (Londres)",
@@ -1042,8 +1105,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mensagens recuperadas pela PF apontam que Faria auxiliou Vorcaro a convidar figuras públicas (incluindo parlamentares e ministros de Cortes Superiores) para festas privadas e eventos de alto luxo (cafetão de luxo), como uma festa de Halloween em 2023 e encontros internacionais (Londres)",
-   "extraLinks": []
+   "summary": "Segundo reportagem da piauí: Mensagens recuperadas pela PF apontam que Faria auxiliou Vorcaro a convidar figuras públicas (incluindo parlamentares e ministros de Cortes Superiores) para festas privadas e eventos de alto luxo (cafetão de luxo), como uma festa de Halloween em 2023 e encontros internacionais (Londres)",
+   "extraLinks": [],
+   "episode": "fabio-faria"
   },
   {
    "text": "Vorcaro tinha grupo com Hugo Motta, Ciro Nogueira e Fábio Faria para organizar encontros",
@@ -1058,8 +1122,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Vorcaro tinha grupo com Hugo Motta, Ciro Nogueira e Fábio Faria para organizar encontros",
-   "extraLinks": []
+   "summary": "Segundo reportagem de gazetadopovo.com.br: Vorcaro tinha grupo com Hugo Motta, Ciro Nogueira e Fábio Faria para organizar encontros",
+   "extraLinks": [],
+   "episode": "fabio-faria"
   },
   {
    "text": "Fábio Faria atuou para intermediar contatos entre Vorcaro e Moraes, aponta PF",
@@ -1074,8 +1139,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Fábio Faria atuou para intermediar contatos entre Vorcaro e Moraes, aponta PF",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: Fábio Faria atuou para intermediar contatos entre Vorcaro e Moraes, aponta PF",
+   "extraLinks": [],
+   "episode": "fabio-faria"
   },
   {
    "text": "Investigado após atuar como produtor-executivo do filme Dark Horse. Áudio mostra ele agradecendo diretamente Vorcaro pelo financiamento do filme e chamando ele de “meu irmão”",
@@ -1090,8 +1156,9 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Investigado após atuar como produtor-executivo do filme Dark Horse. Áudio mostra ele agradecendo diretamente Vorcaro pelo financiamento do filme e chamando ele de “meu irmão”",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Intercept Brasil: Investigado após atuar como produtor-executivo do filme Dark Horse. Áudio mostra ele agradecendo diretamente Vorcaro pelo financiamento do filme e chamando ele de “meu irmão”",
+   "extraLinks": [],
+   "episode": "dark-horse"
   },
   {
    "text": "Marçal teve vôo internacional de R$ 1 milhão pago por empresa de Vorcaro",
@@ -1106,7 +1173,7 @@
    "category": "Aliados políticos",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Marçal teve vôo internacional de R$ 1 milhão pago por empresa de Vorcaro",
+   "summary": "Segundo reportagem do Valor Econômico: Marçal teve vôo internacional de R$ 1 milhão pago por empresa de Vorcaro",
    "extraLinks": []
   },
   {
@@ -1122,7 +1189,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Mensagens mostram que Vorcaro considerava Haddad um dos seus “maiores opositores”",
+   "summary": "Segundo o documento: Mensagens mostram que Vorcaro considerava Haddad um dos seus “maiores opositores”",
    "extraLinks": []
   },
   {
@@ -1138,7 +1205,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Vorcaro pediu ajuda para ‘bloquear’ Gleisi e Mercadante, mostram mensagens Conversas divulgadas indicam tentativa de aproximação com o governo Lula",
+   "summary": "Segundo o documento: Vorcaro pediu ajuda para ‘bloquear’ Gleisi e Mercadante, mostram mensagens Conversas divulgadas indicam tentativa de aproximação com o governo Lula",
    "extraLinks": []
   },
   {
@@ -1158,7 +1225,8 @@
    "extraLinks": [
     "https://www1.folha.uol.com.br/poder/2026/10/gilmar-arquiva-pedido-de-investigacao-contra-vice-de-flavio-bolsonaro-por-suspeita-de-estupro.shtml",
     "https://noticias.uol.com.br/eleicoes/2026/10/06/gilmar-mendes-arquiva-stf-suspeita-estupro-alfredo-gaspar-vice-flavio.ghtm"
-   ]
+   ],
+   "sourceDate": "06/10/2026"
   },
   {
    "text": "Bolso Família: Jair Bolsonaro tentou eleger 3 filhos, 2 cunhados, irmão e atual e ex-mulher nas eleições de 2026",
@@ -1173,7 +1241,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Bolso Família: Jair Bolsonaro tentou eleger 3 filhos, 2 cunhados, irmão e atual e ex-mulher nas eleições de 2026",
+   "summary": "Segundo o documento: Bolso Família: Jair Bolsonaro tentou eleger 3 filhos, 2 cunhados, irmão e atual e ex-mulher nas eleições de 2026",
    "extraLinks": []
   },
   {
@@ -1189,7 +1257,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Vorcaro, rachadinha e milícia: os fantasmas que rondam a campanha 'moderada' de Flávio Bolsonaro",
+   "summary": "Segundo o documento: Vorcaro, rachadinha e milícia: os fantasmas que rondam a campanha 'moderada' de Flávio Bolsonaro",
    "extraLinks": []
   },
   {
@@ -1205,7 +1273,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Pastor de Flávio Bolsonaro, JB Carvalho defendeu em livro retirar NS Aparecida como padroeira do Brasil",
+   "summary": "Segundo o documento: Pastor de Flávio Bolsonaro, JB Carvalho defendeu em livro retirar NS Aparecida como padroeira do Brasil",
    "extraLinks": []
   },
   {
@@ -1222,7 +1290,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: PL sobre Nossa Senhora Aparecida que foi arquivado pela Câmara pretendia mudar a Lei nº 6.802/1980, que estabelece o feriado nacional de 12 de outubro em homenagem a Nossa Senhora Aparecida. Ele era de autoria do deputado federal Professor Victório Galli (MDB-MT), que integrou o governo de Jair Bolsonaro como assessor especial da Presidência da República",
+   "summary": "Segundo o documento: PL sobre Nossa Senhora Aparecida que foi arquivado pela Câmara pretendia mudar a Lei nº 6.802/1980, que estabelece o feriado nacional de 12 de outubro em homenagem a Nossa Senhora Aparecida. Ele era de autoria do deputado federal Professor Victório Galli (MDB-MT), que integrou o governo de Jair Bolsonaro como assessor especial da Presidência da República",
    "extraLinks": []
   },
   {
@@ -1238,7 +1306,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Flávio e Michelle se aproximaram de bispo que defendeu retirar título de padroeira de Nossa Senhora. Flávio foi batizado na igreja dele e já levou livro de fundador a seu pai na prisão",
+   "summary": "Segundo o documento: Flávio e Michelle se aproximaram de bispo que defendeu retirar título de padroeira de Nossa Senhora. Flávio foi batizado na igreja dele e já levou livro de fundador a seu pai na prisão",
    "extraLinks": []
   },
   {
@@ -1254,7 +1322,7 @@
    "category": "Contexto político",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Post antigo de Nikolas dizendo que Virgem Maria foi estuprada viraliza nas redes",
+   "summary": "Segundo o documento: Post antigo de Nikolas dizendo que Virgem Maria foi estuprada viraliza nas redes",
    "extraLinks": []
   },
   {
@@ -1270,7 +1338,7 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio - Entre 2000 e 2002, quando tinha 19 anos, Flávio Bolsonaro acumulou três ocupações simultâneas em duas cidades diferentes",
+   "summary": "Segundo reportagem da BBC News Brasil: Como Flávio Bolsonaro ocupou um cargo na Câmara dos Deputados enquanto fazia faculdade e estágio no Rio - Entre 2000 e 2002, quando tinha 19 anos, Flávio Bolsonaro acumulou três ocupações simultâneas em duas cidades diferentes",
    "extraLinks": []
   },
   {
@@ -1289,7 +1357,8 @@
    "summary": "O documento reúne a acusação do MP-RJ de recolhimento de salários de assessores e o papel atribuído a Fabrício Queiroz. O histórico inclui anulações de provas.",
    "extraLinks": [
     "https://www.folhadelondrina.com.br/ultimas-noticias/entenda-quais-provas-da-rachadinha-contra-flavio-bolsonaro-ainda-valem-3131387e.html"
-   ]
+   ],
+   "episode": "rachadinha"
   },
   {
    "text": "Franquia da Kopenhagen de Flávio Bolsonaro, localizada no Via Parque Shopping, no Rio de Janeiro, foi investigada pelo Ministério Público sob suspeita de ser utilizada para a lavagem de dinheiro do esquema das \"rachadinhas\"  - Foram 1.512 depósitos em dinheiro vivo fragmentados e com valores repetidos entre 2018, montante incompatível com o faturamento real do negócio e apontado como suposta conta de passagem para ocultar recursos ilícitos",
@@ -1305,8 +1374,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Esta é uma suspeita narrada no histórico do caso das rachadinhas, que teve decisões de anulação de provas. O PDF não demonstra uma condenação definitiva por esse fato.",
-   "summary": "O PDF relata: Franquia da Kopenhagen de Flávio Bolsonaro, localizada no Via Parque Shopping, no Rio de Janeiro, foi investigada pelo Ministério Público sob suspeita de ser utilizada para a lavagem de dinheiro do esquema das \"rachadinhas\"  - Foram 1.512 depósitos em dinheiro vivo fragmentados e com valores repetidos entre 2018, montante incompatível com o faturamento real do negócio e apontado como suposta conta de passagem para ocultar recursos ilícitos",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: Franquia da Kopenhagen de Flávio Bolsonaro, localizada no Via Parque Shopping, no Rio de Janeiro, foi investigada pelo Ministério Público sob suspeita de ser utilizada para a lavagem de dinheiro do esquema das \"rachadinhas\"  - Foram 1.512 depósitos em dinheiro vivo fragmentados e com valores repetidos entre 2018, montante incompatível com o faturamento real do negócio e apontado como suposta conta de passagem para ocultar recursos ilícitos",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Ex-sócio de Flávio Bolsonaro na Kopenhagen cita festas com garotas de programa, Rolex de R$ 305 mil e lobby com Nunes Marques no STF, diz site",
@@ -1321,8 +1391,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Ex-sócio de Flávio Bolsonaro na Kopenhagen cita festas com garotas de programa, Rolex de R$ 305 mil e lobby com Nunes Marques no STF, diz site",
-   "extraLinks": []
+   "summary": "Segundo reportagem de brasildefato.com.br: Ex-sócio de Flávio Bolsonaro na Kopenhagen cita festas com garotas de programa, Rolex de R$ 305 mil e lobby com Nunes Marques no STF, diz site",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Rachadinha de Flávio Bolsonaro financiou prédios da milícia",
@@ -1337,8 +1408,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "A ligação financeira é uma alegação da reportagem citada, reproduzida no PDF; não é tratada aqui como conclusão judicial.",
-   "summary": "O PDF relata: Rachadinha de Flávio Bolsonaro financiou prédios da milícia",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Intercept Brasil: Rachadinha de Flávio Bolsonaro financiou prédios da milícia",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "PF apura emenda de Flávio Bolsonaro para ONG suspeita de integrar esquema de desvios comandado por irmãos Brazão (“Peixe\", condenado pela morte de Marielle)",
@@ -1353,8 +1425,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "O texto mistura referências aos irmãos Brazão e a “Peixe”. Peixe é o apelido de Robson Calixto, mencionado separadamente na referência seguinte. Não são a mesma pessoa.",
-   "summary": "O PDF relata: PF apura emenda de Flávio Bolsonaro para ONG suspeita de integrar esquema de desvios comandado por irmãos Brazão (“Peixe\", condenado pela morte de Marielle)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: PF apura emenda de Flávio Bolsonaro para ONG suspeita de integrar esquema de desvios comandado por irmãos Brazão (“Peixe\", condenado pela morte de Marielle)",
+   "extraLinks": [],
+   "episode": "emendas"
   },
   {
    "text": "Assessora de Flávio Bolsonaro negociou emenda com miliciano (Robson Calixto, “Peixe”) condenado no caso Marielle",
@@ -1369,8 +1442,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Assessora de Flávio Bolsonaro negociou emenda com miliciano (Robson Calixto, “Peixe”) condenado no caso Marielle",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Estadão: Assessora de Flávio Bolsonaro negociou emenda com miliciano (Robson Calixto, “Peixe”) condenado no caso Marielle",
+   "extraLinks": [],
+   "episode": "emendas"
   },
   {
    "text": "Flávio Bolsonaro empregou mãe e mulher de chefe do Escritório do Crime (Adriano da Nóbrega) em seu gabinete enquanto deputado estadual. O caso também se cruzou com as investigações sobre o esquema de desvio de salários conhecido como \"rachadinha\".",
@@ -1385,8 +1459,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro empregou mãe e mulher de chefe do Escritório do Crime (Adriano da Nóbrega) em seu gabinete enquanto deputado estadual. O caso também se cruzou com as investigações sobre o esquema de desvio de salários conhecido como \"rachadinha\".",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: Flávio Bolsonaro empregou mãe e mulher de chefe do Escritório do Crime (Adriano da Nóbrega) em seu gabinete enquanto deputado estadual. O caso também se cruzou com as investigações sobre o esquema de desvio de salários conhecido como \"rachadinha\".",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Rachadinha: Viúva e mãe de miliciano (Adriano da Nóbrega) cometeram desvios 310 vezes. Segundo o MP-RJ, as duas eram “assessoras fantasmas” no gabinete de Flávio, “sob compromisso de devolverem parte dos salários desviados”",
@@ -1401,8 +1476,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Rachadinha: Viúva e mãe de miliciano (Adriano da Nóbrega) cometeram desvios 310 vezes. Segundo o MP-RJ, as duas eram “assessoras fantasmas” no gabinete de Flávio, “sob compromisso de devolverem parte dos salários desviados”",
-   "extraLinks": []
+   "summary": "Segundo reportagem de Veja: Rachadinha: Viúva e mãe de miliciano (Adriano da Nóbrega) cometeram desvios 310 vezes. Segundo o MP-RJ, as duas eram “assessoras fantasmas” no gabinete de Flávio, “sob compromisso de devolverem parte dos salários desviados”",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Mulher de miliciano (Adriano da Nóbrega) trabalhou por mais de uma década no gabinete de Flávio Bolsonaro",
@@ -1417,8 +1493,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mulher de miliciano (Adriano da Nóbrega) trabalhou por mais de uma década no gabinete de Flávio Bolsonaro",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: Mulher de miliciano (Adriano da Nóbrega) trabalhou por mais de uma década no gabinete de Flávio Bolsonaro",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Miliciano ligado a Flávio Bolsonaro (Adriano da Nóbrega) recebeu medalha na cadeia, enquanto respondia a acusação de homicídio. Adriano recebeu a Medalha Tiradentes, a mais alta condecoração do Poder Legislativo fluminense, entregue por Flávio diretamente no Batalhão Especial Prisional (BEP) em 2005",
@@ -1433,8 +1510,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Miliciano ligado a Flávio Bolsonaro (Adriano da Nóbrega) recebeu medalha na cadeia, enquanto respondia a acusação de homicídio. Adriano recebeu a Medalha Tiradentes, a mais alta condecoração do Poder Legislativo fluminense, entregue por Flávio diretamente no Batalhão Especial Prisional (BEP) em 2005",
-   "extraLinks": []
+   "summary": "Segundo o documento: Miliciano ligado a Flávio Bolsonaro (Adriano da Nóbrega) recebeu medalha na cadeia, enquanto respondia a acusação de homicídio. Adriano recebeu a Medalha Tiradentes, a mais alta condecoração do Poder Legislativo fluminense, entregue por Flávio diretamente no Batalhão Especial Prisional (BEP) em 2005",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Flávio Bolsonaro apresentou em 2003 uma moção de honra na Alerj para Adriano da Nóbrega, então policial militar do Bope",
@@ -1449,8 +1527,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Flávio Bolsonaro apresentou em 2003 uma moção de honra na Alerj para Adriano da Nóbrega, então policial militar do Bope",
-   "extraLinks": []
+   "summary": "Segundo o documento: Flávio Bolsonaro apresentou em 2003 uma moção de honra na Alerj para Adriano da Nóbrega, então policial militar do Bope",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Flávio Bolsonaro homenageou, em 2004, miliciano apontado como uma das lideranças de milícia no Rio, e suspeito de participar da morte de Marielle (Ronald Paulo Alves Pereira)",
@@ -1465,8 +1544,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Flávio Bolsonaro homenageou, em 2004, miliciano apontado como uma das lideranças de milícia no Rio, e suspeito de participar da morte de Marielle (Ronald Paulo Alves Pereira)",
-   "extraLinks": []
+   "summary": "Segundo o documento: Flávio Bolsonaro homenageou, em 2004, miliciano apontado como uma das lideranças de milícia no Rio, e suspeito de participar da morte de Marielle (Ronald Paulo Alves Pereira)",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Miliciano homenageado por Flávio Bolsonaro e ligado a Adriano da Nóbrega é morto no Rio (Luís Carlos Felipe Martins, o “Orelha”). Orelha foi expulso da PM, entrou para a milícia do Rio das Pedras (",
@@ -1481,8 +1561,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Miliciano homenageado por Flávio Bolsonaro e ligado a Adriano da Nóbrega é morto no Rio (Luís Carlos Felipe Martins, o “Orelha”). Orelha foi expulso da PM, entrou para a milícia do Rio das Pedras (",
-   "extraLinks": []
+   "summary": "Segundo o documento: Miliciano homenageado por Flávio Bolsonaro e ligado a Adriano da Nóbrega é morto no Rio (Luís Carlos Felipe Martins, o “Orelha”). Orelha foi expulso da PM, entrou para a milícia do Rio das Pedras (",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Flávio e Carlos Bolsonaro condecoraram 16 PMs denunciados como integrantes de organizações criminosas",
@@ -1497,8 +1578,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Flávio e Carlos Bolsonaro condecoraram 16 PMs denunciados como integrantes de organizações criminosas",
-   "extraLinks": []
+   "summary": "Segundo o documento: Flávio e Carlos Bolsonaro condecoraram 16 PMs denunciados como integrantes de organizações criminosas",
+   "extraLinks": [],
+   "episode": "milicia"
   },
   {
    "text": "Metade dos imóveis comprados pela família Bolsonaro foram pagos em dinheiro vivo (51 dos 107) Pelo menos 25 foram objeto de investigação. Investigação sobre Flávio Bolsonaro alcança 37 imóveis; promotoria já apontou indícios de lavagem de dinheiro em transações do senador.",
@@ -1516,8 +1598,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "O documento reúne números com universos diferentes: compras da família, imóveis investigados e transações atribuídas a Flávio. Esses totais não devem ser somados. O meio de pagamento, isoladamente, não prova crime.",
-   "summary": "O PDF relata: Metade dos imóveis comprados pela família Bolsonaro foram pagos em dinheiro vivo (51 dos 107) Pelo menos 25 foram objeto de investigação. Investigação sobre Flávio Bolsonaro alcança 37 imóveis; promotoria já apontou indícios de lavagem de dinheiro em transações do senador.",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: Metade dos imóveis comprados pela família Bolsonaro foram pagos em dinheiro vivo (51 dos 107) Pelo menos 25 foram objeto de investigação. Investigação sobre Flávio Bolsonaro alcança 37 imóveis; promotoria já apontou indícios de lavagem de dinheiro em transações do senador.",
+   "extraLinks": [],
+   "episode": "mansao"
   },
   {
    "text": "Mansão que fez patrimônio de Flávio Bolsonaro disparar fica em terreno de 2.400m e foi quitada 27 anos antes do previsto (Ele diz que usa renda de advogado para pagá-la, mas não existe nenhum processo tramitando na justiça que tenha ele como advogado)",
@@ -1532,8 +1615,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Mansão que fez patrimônio de Flávio Bolsonaro disparar fica em terreno de 2.400m e foi quitada 27 anos antes do previsto (Ele diz que usa renda de advogado para pagá-la, mas não existe nenhum processo tramitando na justiça que tenha ele como advogado)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do O Globo: Mansão que fez patrimônio de Flávio Bolsonaro disparar fica em terreno de 2.400m e foi quitada 27 anos antes do previsto (Ele diz que usa renda de advogado para pagá-la, mas não existe nenhum processo tramitando na justiça que tenha ele como advogado)",
+   "extraLinks": [],
+   "episode": "mansao"
   },
   {
    "text": "Empresário que vendeu mansão de Flávio Bolsonaro obteve no mesmo período R$ 1 milhão no BNDES, contrato com o Banco de Brasília e licenças para mineração",
@@ -1548,8 +1632,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Empresário que vendeu mansão de Flávio Bolsonaro obteve no mesmo período R$ 1 milhão no BNDES, contrato com o Banco de Brasília e licenças para mineração",
-   "extraLinks": []
+   "summary": "Segundo reportagem de agenciasportlight.com.br: Empresário que vendeu mansão de Flávio Bolsonaro obteve no mesmo período R$ 1 milhão no BNDES, contrato com o Banco de Brasília e licenças para mineração",
+   "extraLinks": [],
+   "episode": "mansao"
   },
   {
    "text": "MPF vê \"fortes indícios\" de lavagem de dinheiro em bens de Flávio Bolsonaro; foram analisadas 37 transações imobiliárias entre junho de 2005 e maio de 2018",
@@ -1564,8 +1649,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: MPF vê \"fortes indícios\" de lavagem de dinheiro em bens de Flávio Bolsonaro; foram analisadas 37 transações imobiliárias entre junho de 2005 e maio de 2018",
-   "extraLinks": []
+   "summary": "Segundo reportagem da CNN Brasil: MPF vê \"fortes indícios\" de lavagem de dinheiro em bens de Flávio Bolsonaro; foram analisadas 37 transações imobiliárias entre junho de 2005 e maio de 2018",
+   "extraLinks": [],
+   "episode": "mansao"
   },
   {
    "text": "Áudio mostra Bolsonaro e Ramagem discutindo como blindar Flávio no caso das 'rachadinhas', segundo PF",
@@ -1580,8 +1666,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Áudio mostra Bolsonaro e Ramagem discutindo como blindar Flávio no caso das 'rachadinhas', segundo PF",
-   "extraLinks": []
+   "summary": "Segundo reportagem do Valor Econômico: Áudio mostra Bolsonaro e Ramagem discutindo como blindar Flávio no caso das 'rachadinhas', segundo PF",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Sergio Moro anuncia demissão do Ministério da Justiça e deixa o governo Bolsonaro, por interferência do presidente (troca do diretor-geral da PF) “acusando o presidente de tentar interferir politicamente na Polícia Federal para obter relatórios sigilosos e proteger aliados e familiares” (Flávio, caso rachadinhas)",
@@ -1597,8 +1684,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "O documento relaciona a demissão de Moro às investigações de familiares. A saída e a acusação de interferência não demonstram, por si, a motivação específica atribuída no resumo.",
-   "summary": "O PDF relata: Sergio Moro anuncia demissão do Ministério da Justiça e deixa o governo Bolsonaro, por interferência do presidente (troca do diretor-geral da PF) “acusando o presidente de tentar interferir politicamente na Polícia Federal para obter relatórios sigilosos e proteger aliados e familiares” (Flávio, caso rachadinhas)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: Sergio Moro anuncia demissão do Ministério da Justiça e deixa o governo Bolsonaro, por interferência do presidente (troca do diretor-geral da PF) “acusando o presidente de tentar interferir politicamente na Polícia Federal para obter relatórios sigilosos e proteger aliados e familiares” (Flávio, caso rachadinhas)",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Em reunião ministerial, Bolsonaro diz: ‘Eu não vou esperar foder a minha família toda’",
@@ -1613,8 +1701,9 @@
    "category": "Histórico de Flávio",
    "kind": "Contexto",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF menciona: Em reunião ministerial, Bolsonaro diz: ‘Eu não vou esperar foder a minha família toda’",
-   "extraLinks": []
+   "summary": "Segundo o documento: Em reunião ministerial, Bolsonaro diz: ‘Eu não vou esperar foder a minha família toda’",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Flávio Bolsonaro é chefe de organização criminosa que desviava dinheiro, aponta MP (2019)",
@@ -1629,8 +1718,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro é chefe de organização criminosa que desviava dinheiro, aponta MP (2019)",
-   "extraLinks": []
+   "summary": "Segundo reportagem do g1: Flávio Bolsonaro é chefe de organização criminosa que desviava dinheiro, aponta MP (2019)",
+   "extraLinks": [],
+   "episode": "rachadinha"
   },
   {
    "text": "Flávio Bolsonaro destinou milhões em emendas a ONG fantasma, empresa acusada de cartel e instituto de miliciano",
@@ -1645,8 +1735,9 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Flávio Bolsonaro destinou milhões em emendas a ONG fantasma, empresa acusada de cartel e instituto de miliciano",
-   "extraLinks": []
+   "summary": "Segundo reportagem da Revista Fórum: Flávio Bolsonaro destinou milhões em emendas a ONG fantasma, empresa acusada de cartel e instituto de miliciano",
+   "extraLinks": [],
+   "episode": "emendas"
   },
   {
    "text": "Padrinho de Flávio Bolsonaro usa verba para viagens ao Rio",
@@ -1661,7 +1752,7 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Padrinho de Flávio Bolsonaro usa verba para viagens ao Rio",
+   "summary": "Segundo reportagem de folha.uol.com.br: Padrinho de Flávio Bolsonaro usa verba para viagens ao Rio",
    "extraLinks": []
   },
   {
@@ -1695,7 +1786,8 @@
    "kind": "Alegação no PDF",
    "note": "O PDF aproxima a disputa imobiliária e o homicídio do advogado. A associação narrativa não comprova participação de Flávio ou de Willer Tomaz no homicídio.",
    "summary": "O documento aborda uma disputa imobiliária envolvendo Richarlison e Willer Tomaz e menciona a morte de um advogado. Não demonstra ligação criminal entre os fatos.",
-   "extraLinks": []
+   "extraLinks": [],
+   "episode": "angra"
   },
   {
    "text": "Governo Bolsonaro liberou em um dia transferência de imóvel disputado por Richarlison",
@@ -1710,8 +1802,123 @@
    "category": "Histórico de Flávio",
    "kind": "Alegação no PDF",
    "note": "Este registro apresenta o conteúdo e as referências do PDF. A fonte externa e o andamento judicial não foram verificados individualmente nesta edição. Alegação, vínculo pessoal ou reportagem não equivalem a condenação.",
-   "summary": "O PDF relata: Governo Bolsonaro liberou em um dia transferência de imóvel disputado por Richarlison",
-   "extraLinks": []
+   "summary": "Segundo reportagem de ICL Notícias: Governo Bolsonaro liberou em um dia transferência de imóvel disputado por Richarlison",
+   "extraLinks": [],
+   "episode": "angra"
+  }
+ ],
+ "episodes": [
+  {
+   "slug": "dark-horse",
+   "title": "O filme Dark Horse e o Banco Master",
+   "blurb": "O acordo de R$ 134 milhões com o banco de Daniel Vorcaro para produzir o filme sobre Jair Bolsonaro, os repasses milionários à produção e a investigação da PF sobre o financiamento.",
+   "what": "O Banco Master teria financiado o filme “Dark Horse”, sobre a vida de Jair Bolsonaro, por meio de um acordo de R$ 134 milhões com o banqueiro Daniel Vorcaro, com ao menos R$ 61 milhões repassados à produção.",
+   "flavio": "Flávio é o interlocutor político do projeto: a PF o investiga pelo financiamento desde julho de 2026, e o documento descreve viagens suas com Vorcaro em datas próximas aos repasses. Mario Frias, aliado da família, atuou como produtor-executivo.",
+   "response": "Flávio nega irregularidades no financiamento. O destino dos recursos é objeto de apuração; o documento não demonstra recebimento pessoal dos valores pelo senador."
+  },
+  {
+   "slug": "vorcaro",
+   "title": "Mensagens e viagens com o banqueiro Vorcaro",
+   "blurb": "110 registros de contato em 11 meses no celular do banqueiro: mensagens, ligações, encontros presenciais, visitas após a prisão e viagens em jato.",
+   "what": "Mensagens apreendidas do celular de Daniel Vorcaro registram pelo menos 110 contatos com Flávio ao longo de 11 meses — incluindo uma mensagem do senador à véspera da prisão do banqueiro, visitas após a soltura e viagens em jato e aos Estados Unidos.",
+   "flavio": "Os registros mostram a proximidade pessoal e política entre o senador e o dono do Banco Master em 2024 e 2025, período em que o banco repassava recursos ao filme Dark Horse.",
+   "response": "Flávio nega ter relação com Vorcaro; o documento atribui a ele ao menos 43 declarações públicas contraditórias sobre esse elo. A existência de contatos, por si, não comprova crime."
+  },
+  {
+   "slug": "mansao",
+   "title": "A mansão em Brasília e os imóveis",
+   "blurb": "Mansão de R$ 6 milhões quitada 27 anos antes do previsto, empréstimo do BRB com juros abaixo do mercado e 37 transações com “fortes indícios” de lavagem, segundo o MPF.",
+   "what": "A mansão que fez o patrimônio de Flávio disparar foi quitada 27 anos antes do previsto com um empréstimo do BRB a juros abaixo do mercado; o empresário que vendeu o imóvel obteve no mesmo período R$ 1 milhão do BNDES e contratos públicos. O MPF apontou “fortes indícios” de lavagem de dinheiro em 37 transações imobiliárias entre 2005 e 2018.",
+   "flavio": "Os imóveis estão no centro do questionamento sobre o patrimônio do senador — metade das compras da família Bolsonaro foi paga em dinheiro vivo, segundo o documento.",
+   "response": "Flávio afirma pagar a mansão com renda de advogado — versão para a qual o documento diz não haver processo que a comprove. O meio de pagamento, isoladamente, não prova crime."
+  },
+  {
+   "slug": "vinculos",
+   "title": "Vínculos bancários e endereços compartilhados",
+   "blurb": "E-mails que vinculam acessos a contas, sala e contabilidade divididas com o Careca do INSS e apartamento de cunhado de Vorcaro usado na campanha.",
+   "what": "E-mails obtidos pela PF indicariam vínculo de acesso bancário entre uma conta ligada a Flávio e o empresário Willer Tomaz; empresas de Flávio e do Careca do INSS dividiam a mesma sala e os serviços de contabilidade em Brasília; e a campanha usou apartamento comprado do cunhado de Vorcaro por Tomaz.",
+   "flavio": "São vínculos de estrutura — endereço, contabilidade e acesso a contas — que conectam o círculo do senador ao banqueiro do Master e a investigados do caso INSS.",
+   "response": "Flávio e Tomaz negam relação financeira. Um vínculo de acesso, isoladamente, não demonstra titularidade conjunta de conta."
+  },
+  {
+   "slug": "master-inss",
+   "title": "Banco Master e o INSS",
+   "blurb": "A tese do documento: o dinheiro do banco de Vorcaro é dinheiro dos aposentados, e Flávio seria o único candidato com “recebimento provado” do Master.",
+   "what": "O documento associa o Banco Master aos desvios bilionários do INSS — fundos do banco captavam recursos de aposentados — e compara o “rombo” do caso Master à Lava Jato e ao Mensalão.",
+   "flavio": "O documento afirma que Flávio seria o único candidato à Presidência com contato e “recebimento provado” de dinheiro do Master.",
+   "response": "As comparações de valores são do autor do documento e não medem culpa ou prejuízo equivalente; a frase de exclusividade e o “recebimento provado” não foram verificados neste acervo."
+  },
+  {
+   "slug": "rachadinha",
+   "title": "A rachadinha na Alerj",
+   "blurb": "A acusação mais antiga: desvio de salários de assessores no gabinete de Flávio, Fabrício Queiroz como operador e a franquia Kopenhagen investigada por lavagem.",
+   "what": "O MP-RJ acusou Flávio de chefiar, quando era deputado estadual, uma organização criminosa que desviava parte dos salários de assessores — a “rachadinha” — com Fabrício Queiroz como operador. A franquia Kopenhagen dele foi investigada sob suspeita de lavagem do dinheiro do esquema.",
+   "flavio": "É a acusação mais antiga contra o senador, originada do gabinete dele na Alerj; áudios citados pela PF mostram Jair Bolsonaro e Ramagem discutindo como “blindar” Flávio no caso.",
+   "response": "Flávio nega as acusações. O histórico do processo inclui anulação de provas e o estado atual não foi verificado neste acervo; acusação do MP não equivale a condenação."
+  },
+  {
+   "slug": "milicia",
+   "title": "Milícia e Adriano da Nóbrega",
+   "blurb": "Mãe e mulher de Adriano da Nóbrega empregadas no gabinete — “assessoras fantasmas” segundo o MP — e homenagens a policiais depois ligados a milícias.",
+   "what": "Flávio empregou no gabinete na Alerj a mãe e a mulher de Adriano da Nóbrega, apontado como chefe de milícia; o MP-RJ as descreveu como “assessoras fantasmas” que devolviam parte dos salários. Reportagens citam ainda que a “rachadinha” teria financiado prédios de milícia, e Flávio homenageou PMs depois vinculados a organizações criminosas.",
+   "flavio": "Os empregos e as homenagens foram atos do então deputado estadual, entre 2003 e 2019.",
+   "response": "As ligações financeiras são alegações de reportagem reproduzidas no documento, sem condenação por esses fatos nos registros deste acervo."
+  },
+  {
+   "slug": "emendas",
+   "title": "Emendas e entidades questionadas",
+   "blurb": "Emendas do senador para ONG ligada aos irmãos Brazão, negociação com o miliciano “Peixe” e outras entidades sob suspeita.",
+   "what": "Flávio destinou milhões em emendas parlamentares a entidades questionadas: uma ONG sob investigação ligada aos irmãos Brazão, um instituto associado a miliciano e entidades apontadas como “fantasmas”. Uma assessora dele negociou emenda com Robson Calixto, o “Peixe”, condenado no caso Marielle.",
+   "flavio": "As emendas foram destinadas pelo gabinete do senador ao longo do mandato.",
+   "response": "Os registros deste acervo não trazem resposta específica de Flávio sobre estas destinações; a existência de emenda não comprova desvio."
+  },
+  {
+   "slug": "angra",
+   "title": "A disputa do imóvel em Angra",
+   "blurb": "Imóvel comprado por Richarlison e disputado na Justiça; o governo liberou em um dia a transferência e um advogado da causa foi morto.",
+   "what": "Uma disputa imobiliária em Angra dos Reis envolve o imóvel comprado pelo jogador Richarlison e o empresário Willer Tomaz; o governo Bolsonaro liberou em um dia a transferência do imóvel disputado, e um advogado da causa foi assassinado.",
+   "flavio": "O documento aproxima a disputa do círculo de Flávio — Tomaz é o mesmo empresário dos vínculos bancários —, sem demonstrar participação do senador.",
+   "response": "O próprio documento não demonstra ligação criminal entre os fatos nem participação de Flávio ou de Tomaz no homicídio."
+  },
+  {
+   "slug": "nunes-marques",
+   "title": "Nunes Marques e os precatórios",
+   "blurb": "Causas bilionárias do Master vencidas no STF por 3 a 2 com voto de desempate do ministro, e mensagens sobre suposto pagamento mensal ao filho dele.",
+   "what": "O Master venceu duas causas de mais de R$ 1 bilhão no STF por 3 a 2, com voto de desempate de Kassio Nunes Marques, em casos ligados a precatórios e usinas. Mensagens citam um contrato de honorários de até R$ 427 milhões e suposto pagamento mensal ao filho do ministro.",
+   "flavio": "Flávio não é parte direta deste episódio; um ex-sócio dele na Kopenhagen relatou “lobby” com Nunes Marques no STF.",
+   "response": "Nunes Marques nega irregularidades. A CNN descreve honorários previstos em contrato de advocacia condicionados a êxito — o que não comprova pagamento pessoal de R$ 427 milhões ao filho do ministro."
+  },
+  {
+   "slug": "mendonca-iter",
+   "title": "Mendonça, Vorcaro e o instituto ITER",
+   "blurb": "O advogado do banqueiro levou o ministro a uma alfaiataria e agendou encontros; o ITER fundado por Mendonça recebeu R$ 5,2 milhões e somou 55 contratos públicos.",
+   "what": "O advogado de Vorcaro levou o ministro André Mendonça a uma alfaiataria, agendou encontros entre os dois e usou a sede do instituto ITER para uma reunião de duas horas fora da agenda oficial. O ITER, fundado por Mendonça, recebeu R$ 5,2 milhões de empresa de um ex-sócio do banqueiro e faturou ao menos R$ 10,8 milhões em 55 contratos públicos em dois anos.",
+   "flavio": "Flávio não é parte direta deste episódio — o eixo é a aproximação entre o banqueiro do Master e o ministro que depois foi sorteado relator do caso no STF.",
+   "response": "Mendonça nega irregularidades; as notas que apresentou da alfaiataria registravam “sem pagamento”. Contratos públicos e doações, isoladamente, não comprovam troca de favores."
+  },
+  {
+   "slug": "stf-master-pf",
+   "title": "O caso Master no STF e a PF",
+   "blurb": "O afastamento do diretor da PF que prendeu Vorcaro, a oitiva do banqueiro sem a polícia, o sigilo do celular dele e prazos dísparos apontados em relatório.",
+   "what": "Em 2026, André Mendonça afastou o diretor da PF que havia prendido Vorcaro e investigava o INSS, ouviu o banqueiro no gabinete sem a polícia no horário de um depoimento frustrado e recomendou manter sob sigilo o celular de Vorcaro. Relatório da PF apontou variação de até oito vezes nos prazos de suas decisões sobre políticos, e o PGR pediu nulidade de ato do ministro.",
+   "flavio": "Flávio não é parte direta deste episódio — o foco é o rastreio do dinheiro do Master e a atuação de ministros sobre investigações que alcançam o círculo do senador.",
+   "response": "A AGU contestou o afastamento como usurpação de competência. Mendonça nega irregularidades; são disputas institucionais em curso, sem condenação."
+  },
+  {
+   "slug": "ciro",
+   "title": "Ciro Nogueira e a “Emenda Master”",
+   "blurb": "Pagamentos mensais suspeitos, viagem de R$ 2 milhões a Courchevel custeada por Vorcaro e a emenda que ampliou a cobertura do FGC.",
+   "what": "A PF suspeita que Ciro Nogueira recebia de Vorcaro pagamentos mensais de R$ 300 mil a R$ 500 mil e ao menos três viagens internacionais — incluindo a de Courchevel, de R$ 2 milhões. Como senador, Ciro apresentou a emenda que ampliava a cobertura do Fundo Garantidor de Crédito, apelidada de “Emenda Master”.",
+   "flavio": "Flávio não é parte direta: o episódio descreve a rede de aliados do banco no Congresso.",
+   "response": "Ciro é alvo da Operação Compliance Zero. Os registros deste acervo não registram resposta dele ao conjunto dessas acusações."
+  },
+  {
+   "slug": "fabio-faria",
+   "title": "Fábio Faria, intermediário de Vorcaro",
+   "blurb": "O ex-ministro como articulador do banqueiro com autoridades; empresa ligada a Vorcaro pagou R$ 67,5 milhões por projeto dele.",
+   "what": "A PF descreve Fábio Faria como principal intermediário político e jurídico de Vorcaro em Brasília: organizou encontros e festas com autoridades, intermediou contatos com Moraes e integrava, com o banqueiro, um grupo com Hugo Motta e Ciro Nogueira. Uma empresa ligada a Vorcaro pagou R$ 67,5 milhões por um projeto de Faria.",
+   "flavio": "Flávio não é parte direta: o episódio mapeia os intermediários do Master junto ao poder.",
+   "response": "Sem resposta pública registrada nos registros deste acervo."
   }
  ],
  "sourceCount": 107,

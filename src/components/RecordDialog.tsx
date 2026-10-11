@@ -1,7 +1,42 @@
 import { useEffect, useRef, useState } from 'react'
-import { isCorrection, contextLabel, sourceName, type ArchiveCase } from '../lib/archive'
+import {
+  cases,
+  episodeBySlug,
+  isCorrection,
+  contextLabel,
+  sourceName,
+  type ArchiveCase,
+} from '../lib/archive'
 
-function SourceList({ links }: { links: string[] }) {
+function EpisodeBrief({ slug }: { slug: string }) {
+  const episode = episodeBySlug[slug]
+  if (!episode) return null
+  const records = cases.filter((c) => c.episode === slug)
+  const pages = [...new Set(records.flatMap((r) => r.pages))].sort((a, b) => a - b)
+  const pagesLabel = pages.length
+    ? ` — ${pages.length > 1 ? 'páginas' : 'página'} ${pages.join(', ')} do documento original`
+    : ''
+  return (
+    <div className="episode-brief">
+      <p className="episode-brief-title">O caso: {episode.title}</p>
+      <p>
+        <strong>O que foi noticiado.</strong> {episode.what}
+      </p>
+      <p>
+        <strong>A relação de Flávio.</strong> {episode.flavio}
+      </p>
+      <p>
+        <strong>O que sustenta a informação.</strong> {records.length} registros deste acervo
+        {pagesLabel}, com as reportagens de referência listadas abaixo.
+      </p>
+      <p>
+        <strong>Resposta e situação.</strong> {episode.response}
+      </p>
+    </div>
+  )
+}
+
+function SourceList({ links, date }: { links: string[]; date?: string }) {
   return (
     <ul className="source-list">
       {links.map((url, i) => {
@@ -19,6 +54,7 @@ function SourceList({ links }: { links: string[] }) {
                 {sourceName(url)}
                 <small>
                   Referência {i + 1} · {u.hostname}
+                  {date ? ` · reportagem de ${date}` : ''}
                 </small>
               </span>
               <span aria-hidden="true">↗</span>
@@ -45,8 +81,21 @@ export function RecordDialog({
   const manualInput = useRef<HTMLInputElement>(null)
 
   const linkUrl = record
-    ? `${window.location.origin}${window.location.pathname}?registro=${record.id}`
+    ? `${window.location.origin}/registro/${record.id}`
     : ''
+
+  const whatsappUrl = record
+    ? `https://wa.me/?text=${encodeURIComponent(`${record.title} — ${linkUrl}`)}`
+    : ''
+
+  const shareNative = async () => {
+    if (!record || !navigator.share) return
+    try {
+      await navigator.share({ title: record.title, text: record.title, url: linkUrl })
+    } catch {
+      // compartilhamento cancelado pelo usuário
+    }
+  }
 
   useEffect(() => {
     const dialog = dialogRef.current
@@ -111,14 +160,15 @@ export function RecordDialog({
               {record.category} · REGISTRO {record.number}
             </div>
             <h2 id="dialog-title">{record.title}</h2>
+            {record.episode && <EpisodeBrief slug={record.episode} />}
             <p className="dialog-summary">{record.summary}</p>
             <div className={`context-box ${isCorrection(record.kind) ? 'correction' : ''}`}>
               <strong>{contextLabel(record.kind)}</strong>
               {record.note}
             </div>
-            <h3 className="dialog-section">Referências do PDF</h3>
+            <h3 className="dialog-section">Fontes citadas pelo documento</h3>
             {record.links.length ? (
-              <SourceList links={record.links} />
+              <SourceList links={record.links} date={record.sourceDate} />
             ) : (
               <p className="dialog-caption">
                 O documento não associa um link específico a esta afirmação. Consulte a página
@@ -143,6 +193,19 @@ export function RecordDialog({
               </p>
             </details>
             <div className="dialog-actions">
+              <a
+                className="secondary share-whatsapp"
+                href={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Compartilhar no WhatsApp
+              </a>
+              {typeof navigator !== 'undefined' && 'share' in navigator && (
+                <button className="secondary" onClick={shareNative}>
+                  Compartilhar…
+                </button>
+              )}
               <a
                 className="secondary"
                 href="/documento-original.pdf"
