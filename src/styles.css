@@ -938,19 +938,6 @@ main {
   display: none;
 }
 
-.search-box kbd {
-  flex: none;
-  display: grid;
-  place-items: center;
-  min-width: 22px;
-  height: 22px;
-  padding: 0 5px;
-  border-radius: 6px;
-  background: var(--panel-3);
-  font: 500 var(--t-micro) / 1 var(--sans);
-  color: var(--fg-4);
-}
-
 .filters {
   display: flex;
   flex-wrap: wrap;

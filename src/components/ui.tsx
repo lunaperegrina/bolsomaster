@@ -50,7 +50,6 @@ export function SearchBox({
         value={value}
         onChange={(e) => onChange(e.target.value)}
       />
-      <kbd aria-hidden="true">/</kbd>
     </label>
   )
 }
