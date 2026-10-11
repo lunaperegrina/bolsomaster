@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build && node scripts/prerender-records.mjs",
     "preview": "vite preview",
-    "deploy": "npm run build && wrangler pages deploy dist"
+    "deploy": "npm run build && wrangler pages deploy dist --project-name bolsomaster"
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.42",
