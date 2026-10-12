@@ -1663,21 +1663,16 @@ dialog::backdrop {
 .mat-start-grid,
 .mat-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: var(--gap);
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* cards horizontais de "Por onde começar" pedem coluna mais larga */
-.mat-start-grid {
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-}
-
 .mat-card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
   overflow: hidden;
   transition: transform var(--hover) var(--ease), box-shadow var(--hover) var(--ease);
@@ -1696,17 +1691,19 @@ dialog::backdrop {
   min-width: 0;
 }
 
-/* capa: imagem em sangria; no card vertical (padrão) fica no topo, com rank e categoria sobrepostos */
+/* capa: faixa de imagem em sangria à esquerda do card, com o rank do passo sobreposto */
 .mat-cover {
   position: relative;
-  margin: calc(var(--pad) * -1) calc(var(--pad) * -1) 2px;
-  border-bottom: 1px solid var(--ink);
+  flex: none;
+  width: 148px;
+  margin: calc(var(--pad) * -1) 0 calc(var(--pad) * -1) calc(var(--pad) * -1);
+  border-right: 1px solid var(--ink);
 }
 
 .mat-cover img {
   display: block;
   width: 100%;
-  aspect-ratio: 3 / 2;
+  height: 100%;
   object-fit: cover;
   background: var(--panel-3);
 }
@@ -1725,33 +1722,6 @@ dialog::backdrop {
   font-variant-numeric: tabular-nums;
   color: var(--fg);
   transform: rotate(-3deg);
-}
-
-.mat-cover-chip {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background: rgba(251, 247, 235, 0.95);
-  border: 1px solid var(--ink);
-  border-radius: 6px;
-}
-
-/* card horizontal: capa em sangria à esquerda, conteúdo em coluna à direita */
-.mat-card--row {
-  flex-direction: row;
-}
-
-.mat-card--row .mat-cover {
-  flex: none;
-  width: 148px;
-  margin: calc(var(--pad) * -1) 0 calc(var(--pad) * -1) calc(var(--pad) * -1);
-  border-bottom: 0;
-  border-right: 1px solid var(--ink);
-}
-
-.mat-card--row .mat-cover img {
-  height: 100%;
-  aspect-ratio: auto;
 }
 
 .mat-meta {
@@ -2103,11 +2073,11 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .mat-card--row .mat-cover {
+  .mat-cover {
     width: 104px;
   }
 
-  .mat-card--row .mat-rank {
+  .mat-rank {
     top: 8px;
     left: 8px;
     padding: 2px 8px 3px;
